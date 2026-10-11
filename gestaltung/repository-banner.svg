@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460">
+<title>Webhosting – Das umfassende Praxisbuch</title><desc>Begleitmaterial zu den beiden Bänden. Eigene Hardware und gemietete Linux-Server.</desc>
+<rect width="1600" height="460" fill="#F1F5F8"/>
+<rect x="0" y="0" width="12" height="460" fill="#315E80"/>
+<g fill="none" stroke="#BEC8D7" stroke-width="2"><path d="M1000 0v55h240v80h150v90h210M1160 460v-75h160v-74h280"/><circle cx="1240" cy="55" r="7" fill="#F1F5F8"/><circle cx="1390" cy="225" r="7" fill="#F1F5F8"/></g>
+<g font-family="Arial, sans-serif"><text x="85" y="84" font-size="22" font-weight="700" letter-spacing="4" fill="#315E80">LUNARYX · BEGLEITMATERIAL</text>
+<text x="80" y="180" font-size="80" font-weight="700" fill="#293B59">Webhosting</text>
+<text x="85" y="228" font-size="31" fill="#293B59">Das umfassende Praxisbuch</text>
+<text x="85" y="295" font-size="25" fill="#43566A">Vom ersten eigenen Auftritt zum verlässlichen Betrieb.</text>
+<text x="85" y="372" font-size="21" font-weight="700" fill="#315E80">BAND 1 · WEBSITES</text><text x="425" y="372" font-size="21" font-weight="700" fill="#293B59">BAND 2 · WEBANWENDUNGEN</text></g>
+<g transform="translate(1160,160)" stroke="#315E80" fill="white" stroke-width="5"><rect x="0" y="60" width="154" height="130" rx="8"/><path d="M-18 70 77-6l95 76" fill="none"/><rect x="36" y="98" width="82" height="22" rx="4"/><rect x="36" y="132" width="82" height="22" rx="4"/><circle cx="102" cy="109" r="3" fill="#315E80"/><circle cx="102" cy="143" r="3" fill="#315E80"/><path d="M172 127h62v-78h55" fill="none"/><rect x="253" y="-25" width="106" height="152" rx="8" fill="#293B59" stroke="#293B59"/><path d="M272 5h68M272 36h68M272 67h68" stroke="#E9EDF4"/><circle cx="339" cy="104" r="4" fill="#E9EDF4" stroke="#E9EDF4"/></g></svg>

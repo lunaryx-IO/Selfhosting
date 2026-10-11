@@ -1,0 +1,29 @@
+name: Unklare Buchstelle
+description: Eine Erklärung oder einen Arbeitsschritt verständlicher machen.
+title: "[Leserhinweis] "
+body:
+  - type: input
+    id: fundstelle
+    attributes:
+      label: Band, Kapitel und Abschnitt
+      placeholder: "Zum Beispiel Band 1, Kapitel 17, Abschnitt …"
+    validations:
+      required: true
+  - type: input
+    id: fassung
+    attributes:
+      label: Buch- und Materialfassung
+      placeholder: "Material 2026.10.12; Buchfassung …"
+    validations:
+      required: true
+  - type: textarea
+    id: beobachtung
+    attributes:
+      label: Was wollten Sie tun, und wo wurde es unklar?
+      description: Bitte keine Zugangsdaten, privaten Adressen oder vertraulichen Protokolle einfügen.
+    validations:
+      required: true
+  - type: textarea
+    id: hilfe
+    attributes:
+      label: Welche Erklärung oder Hilfe hat Ihnen gefehlt?

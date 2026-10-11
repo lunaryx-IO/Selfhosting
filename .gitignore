@@ -1,0 +1,11 @@
+.DS_Store
+._*
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+*.log
+meine-notizen/
+__pycache__/
+*.pyc
