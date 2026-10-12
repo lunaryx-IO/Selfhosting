@@ -1,5 +1,11 @@
 # Änderungen an den Begleitmaterialien
 
+## 2026.10.12-r4 · Vollständig abgeglichene Veröffentlichung
+
+- Fassungsangaben und Prüfsummen im Repository und in beiden Downloads vollständig abgeglichen.
+- Der Zwischenstand r3 wurde wegen drei nicht synchron veröffentlichten Wegweisern zurückgezogen. Sein Buchtext war unverändert; die empfohlene Beilage ist r4.
+- Alle Transferkorrekturen und die Frage zum eigenen Vorhaben sind enthalten. Zugehörige Word-Fassung weiterhin R8.
+
 ## 2026.10.12-r3 · Rückmeldung zur Übertragung auf eigene Projekte
 
 - Materialnummer im Rückmeldeblatt an die aktuelle Zusammenstellung angepasst.

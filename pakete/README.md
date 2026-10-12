@@ -1,6 +1,6 @@
 # Vollständige Materialpakete
 
-**Fassung 2026.10.12-r3 · 12. Oktober 2026**
+**Fassung 2026.10.12-r4 · 12. Oktober 2026**
 
 - [Band 1 herunterladen](Webhosting_Band_1_Begleitmaterial.zip)
 - [Band 2 herunterladen](Webhosting_Band_2_Begleitmaterial.zip)

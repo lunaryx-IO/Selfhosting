@@ -1,6 +1,6 @@
 # Was wurde tatsächlich geprüft?
 
-**Stand: 12. Oktober 2026 · Materialfassung 2026.10.12-r2**
+**Stand: 12. Oktober 2026 · Materialfassung 2026.10.12-r4**
 
 Die folgenden Berichte beschreiben ausgeführte Versuche zur Anleitung in beiden Bänden. Sie nennen Aufbau, Beobachtung und Aussagegrenze. Die Lerninhalte und Anwendungsdaten waren synthetisch; private Kontodaten und Rohprotokolle gehören nicht in diese Veröffentlichung.
 

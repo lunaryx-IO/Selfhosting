@@ -1,6 +1,6 @@
 # Welche Fassung habe ich vor mir?
 
-**Materialfassung:** 2026.10.12-r3  
+**Materialfassung:** 2026.10.12-r4  
 **Datum:** 12. Oktober 2026  
 **Buch:** Webhosting – Das umfassende Praxisbuch, Band 1 und Band 2  
 **Zugehöriger Textstand:** 12. Oktober 2026 · Word-Master R8
