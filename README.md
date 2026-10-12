@@ -20,4 +20,4 @@ Willkommen bei den Begleitmaterialien zu **Webhosting – Das umfassende Praxisb
 
 Die Beispiele arbeiten mit erfundenen Werkstattdaten. Persönliche Zugänge und echte Kundendaten werden dafür nicht benötigt. Ihre ausgefüllten Betriebsunterlagen behalten Sie bei sich.
 
-**Materialfassung 2026.10.12-r2 · 12. Oktober 2026.** Sie gehört zum Textstand beider Bände vom 12. Oktober 2026. Welche Änderungen später hinzukommen, steht in den [Änderungshinweisen](AENDERUNGEN.md). [Fassungszuordnung und Prüfsummen](VERSION.md) helfen, Buch und Download zusammenzuhalten.
+**Materialfassung 2026.10.12-r3 · 12. Oktober 2026.** Sie gehört zum Textstand beider Bände vom 12. Oktober 2026. Welche Änderungen später hinzukommen, steht in den [Änderungshinweisen](AENDERUNGEN.md). [Fassungszuordnung und Prüfsummen](VERSION.md) helfen, Buch und Download zusammenzuhalten.

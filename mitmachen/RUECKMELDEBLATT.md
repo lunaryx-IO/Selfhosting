@@ -5,7 +5,7 @@ Speichern Sie eine eigene Kopie und füllen Sie nur die Angaben aus, die für Ih
 ## Welche Fassung und welcher Aufbau?
 
 - Buch: Band … / Dateiname oder Ausgabestand …
-- Materialfassung: 2026.10.12
+- Materialfassung: 2026.10.12-r3
 - Aufgabe und Datum: …
 - Erfahrung mit Linux/Webhosting: …
 - Arbeitsrechner und gewählter Lernaufbau, ohne vertrauliche Details: …
@@ -29,6 +29,12 @@ Falls nicht ausgeführt: Welche Voraussetzung fehlte oder warum entfiel die Aufg
 ## Was war hilfreich?
 
 Eine Erklärung, ein Beispiel oder ein Bild, das mir besonders geholfen hat: …
+
+## Was nehme ich für mein eigenes Projekt mit?
+
+Denken Sie an ein kleines eigenes Vorhaben: Welche Schritte aus dem Buch könnten Sie übernehmen, und wo wären Sie unsicher, was Sie ändern müssten? Ein konkretes Beispiel genügt; Sie müssen dafür nichts Zusätzliches installieren.
+
+Meine Überlegung: …
 
 ## Abschluss der eigenen Probe
 

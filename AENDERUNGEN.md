@@ -1,5 +1,11 @@
 # Änderungen an den Begleitmaterialien
 
+## 2026.10.12-r3 · Rückmeldung zur Übertragung auf eigene Projekte
+
+- Materialnummer im Rückmeldeblatt an die aktuelle Zusammenstellung angepasst.
+- Eine kurze freie Frage hilft festzuhalten, welche Schritte Leser für ihr eigenes Vorhaben übernehmen können. Es entsteht keine zusätzliche praktische Pflichtaufgabe.
+- Der Buchtext bleibt auf R8; die Verbesserungen aus 2026.10.12-r2 sind vollständig enthalten.
+
 ## 2026.10.12-r2 · Das Gelernte auf eigene Projekte übertragen
 
 - Band 1 erklärt die vollständige Bereitstellung auch für eigene Bilder und Unterordner. Jede Änderung hat einen eigenen Namen und einen passenden vollständigen Rückweg. Die Dateischritte wurden einschließlich einer unterbrochenen Übernahme gezielt unter Linux geprüft.
