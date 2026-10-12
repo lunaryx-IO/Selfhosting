@@ -6,6 +6,8 @@
 
 Verwenden Sie eine bereits eingerichtete Lernanwendung: Kanboard aus Kapitel 2, das Journal aus Kapitel 5 oder die Terminverwaltung aus Kapitel 6. Der Wiedereinstieg in Kapitel 1 hilft, Zugänge und Datenstand zuzuordnen. Eine zweite Anwendung ist für diese Leserprobe nicht nötig.
 
+Für die Übertragung auf eine andere Anwendung lesen Sie in Kapitel 2 auch Abschnitt 2.10: den Vergleich der Betriebsweisen und die Fragen zur fremden Installationsanleitung. Das gilt ebenso, wenn Sie die native Übung ausgelassen haben.
+
 Legen Sie einen kleinen wiedererkennbaren Übungsinhalt an, etwa eine Aufgabe mit Anlage, einen Beitrag mit Bild oder einen erfundenen Termin. Nutzen Sie keine Kundenkonten und keine fremden E-Mail-Empfänger.
 
 ## Ihre Aufgabe

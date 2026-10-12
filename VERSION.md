@@ -1,9 +1,9 @@
 # Welche Fassung habe ich vor mir?
 
-**Materialfassung:** 2026.10.12  
+**Materialfassung:** 2026.10.12-r2  
 **Datum:** 12. Oktober 2026  
 **Buch:** Webhosting – Das umfassende Praxisbuch, Band 1 und Band 2  
-**Zugehöriger Textstand:** 12. Oktober 2026
+**Zugehöriger Textstand:** 12. Oktober 2026 · Word-Master R8
 
 Die beiden ZIP-Pakete sind jeweils vollständig für ihren Band nutzbar. Gemeinsame Hinweise, Testberichte und Rückmeldevorlagen liegen deshalb in beiden Archiven. Sie müssen das zweite Paket nicht zusätzlich herunterladen.
 
@@ -17,4 +17,4 @@ Die [Dateiliste mit SHA-256-Prüfsummen](DATEIEN.sha256) beschreibt den Inhalt d
 
 ## Was die Testberichte aussagen
 
-Der [Prüfüberblick](pruefungen/README.md) trennt tatsächliche Ergebnisse, behobene Fehler und noch nicht untersuchte Varianten. Die unabhängige Leser- und Fachprüfung ist bei dieser ersten Materialveröffentlichung noch offen. Die Veröffentlichung der Buchbeilage ist keine Behauptung, dass diese Menschenprüfungen bereits stattgefunden hätten.
+Der [Prüfüberblick](pruefungen/README.md) trennt tatsächliche Ergebnisse, behobene Fehler und noch nicht untersuchte Varianten. Die unabhängige Leser- und Fachprüfung ist auch in dieser Materialfassung noch offen. Die Veröffentlichung der Buchbeilage ist keine Behauptung, dass diese Menschenprüfungen bereits stattgefunden hätten.

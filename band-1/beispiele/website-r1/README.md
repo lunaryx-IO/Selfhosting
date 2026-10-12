@@ -11,6 +11,8 @@ Diese Dateien entsprechen dem vollständigen Beispiel aus **Band 1, Kapitel 16 �
 
 Kopieren Sie die vier Dateien bei Bedarf in den neuen Arbeitsordner `website-r1` aus dem Kapitel. Die vollständige Übernahme auf den Server, die Rechte und der Rückweg stehen im Buch. Diese README gehört nicht in die öffentliche Dokumentwurzel.
 
+Für die nächste Änderung legen Sie eine vollständige Arbeitskopie unter einem neuen Namen an, zum Beispiel `website-r2`. Dazu gehören auch eigene Bilder und Unterordner. Kapitel 16 erklärt, wie Sie den gesamten bisherigen Auftritt erhalten und bei Bedarf zurückholen. Die Rücknahme einer späteren Änderung führt zum unmittelbar vorherigen Stand, nicht zurück zur allerersten Einzelseite.
+
 Die Inhalte sind erfunden. Sie enthalten weder ein rechtliches Impressum für einen realen Betrieb noch eine verbindliche Terminbuchung.
 
 [Zum Material von Band 1](../../README.md)

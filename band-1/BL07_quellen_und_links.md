@@ -385,8 +385,8 @@ Im Buch: Kapitel 16 (Eine vollständige statische Website betreiben)
 7. [Firefox: Network Monitor](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/), Einstieg in die Netzwerkanalyse.
 8. [Chrome: Inspect network activity](https://developer.chrome.com/docs/devtools/network), Öffnen, Neuladen, Ressourcendetails und Cache.
 9. [Firefox: Network request details](https://firefox-source-docs.mozilla.org/devtools-user/network_monitor/request_details/), Kopfzeilen und Antwortinhalt.
-10. [GNU/Debian: install(1)](https://manpages.debian.org/trixie/coreutils/install.1.en.html), gezielte Dateiübernahme mit Eigentümer, Gruppe und Modus. Abruf: 23.09.2026.
-11. [GNU/Debian: cp(1)](https://manpages.debian.org/trixie/coreutils/cp.1.en.html) und [rm(1)](https://manpages.debian.org/trixie/coreutils/rm.1.en.html), Rückwegkopie und ausdrücklich begrenzte Dateirücknahme. Abruf: 23.09.2026.
+10. [GNU/Debian: find(1)](https://manpages.debian.org/trixie/findutils/find.1.en.html), [chmod(1)](https://manpages.debian.org/trixie/coreutils/chmod.1.en.html) und [diff(1)](https://manpages.debian.org/trixie/diffutils/diff.1.en.html), Dateitypen, getrennte Verzeichnis-/Dateirechte und rekursiver Inhaltsvergleich. Abruf: 12.10.2026.
+11. [GNU/Debian: cp(1)](https://manpages.debian.org/trixie/coreutils/cp.1.en.html) und [mv(1)](https://manpages.debian.org/trixie/coreutils/mv.1.en.html), vollständige Rückwegkopie mit Metadaten und Verschieben ohne Einordnung als Unterverzeichnis. Erneut geprüft: 12.10.2026.
 12. [systemd/Debian: systemctl(1)](https://manpages.debian.org/trixie/systemd/systemctl.1.en.html), Startaktivierung und laufenden Dienst getrennt steuern. Abruf: 23.09.2026.
 
 ## Kapitel 17: Den Grundaufbau sichern und wiederherstellen

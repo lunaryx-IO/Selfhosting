@@ -11,9 +11,9 @@ Die [vier Website-Dateien](../band-1/beispiele/website-r1/README.md) entsprechen
 ## Ihre Aufgabe
 
 1. Öffnen Sie die Website über den beschriebenen geschützten Weg und rufen Sie Start-, Termin- und Projektseite auf.
-2. Ändern Sie in Ihrer lokalen Lernkopie genau eine Angabe: Auf der Terminseite wird aus „Montag, 9 bis 12 Uhr“ die Zeit „Montag, 10 bis 12 Uhr“. Halten Sie den vorherigen Stand bereit.
+2. Legen Sie eine vollständige lokale Kopie unter einem neuen, noch nicht verwendeten Bereitstellungsnamen an, zum Beispiel `website-r2`. Ändern Sie darin genau eine Angabe: Auf der Terminseite wird aus „Montag, 9 bis 12 Uhr“ die Zeit „Montag, 10 bis 12 Uhr“. Zum neuen Stand gehören alle Website-Dateien; der bisherige vollständige Serverstand bleibt nach Kapitel 16 als Rückweg erhalten.
 3. Übernehmen Sie die Änderung mit dem im Kapitel erklärten Verfahren. Prüfen Sie anschließend die tatsächlich vom Server gelieferte Seite.
-4. Stellen Sie für diesen Versuch die frühere Angabe wieder her und kontrollieren Sie den Abruf erneut.
+4. Verwenden Sie den vollständigen Rückweg genau dieser Bereitstellung und kontrollieren Sie den Abruf erneut. Kehren Sie zur vorherigen vollständigen Website zurück; die Einzelseite aus dem ersten Aufbau ist hier nicht das Ziel.
 
 ## Daran erkennen Sie das Ergebnis
 

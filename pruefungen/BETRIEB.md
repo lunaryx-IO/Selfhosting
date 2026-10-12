@@ -35,3 +35,11 @@ Der ursprüngliche tägliche Sicherungsplan wurde nach dem Stundenversuch wieder
 Natürliche Zertifikatserneuerung, ein erst künftig fälliges Sicherheitspaket, langfristige Zuverlässigkeit und vollständiger Verlust des Anbieterkontos sind nicht durch die kurzen Versuche belegt. Solche Beobachtungen gehören zum später tatsächlich betriebenen Standort.
 
 [Zur Prüfübersicht](README.md)
+
+## Nachprüfung eigener Website-Dateien am 12. Oktober 2026
+
+Der ergänzte Ablauf aus Band 1, Kapitel 16, wurde mit getrennten Testverzeichnissen unter Linux geprüft. Die erste Übernahme und ihre Rücknahme, eine Folgeänderung mit Bild und Unterordner sowie die vollständige Rückkehr einschließlich Eigentümern und Dateirechten bestanden. Eine im neuen Stand entfallene Seite blieb nicht im veröffentlichten Dateibaum zurück.
+
+Ein bereits verwendeter Bereitstellungsname, eine abweichende Kopie und eine symbolische Verknüpfung wurden erkannt. Nach einer absichtlichen Unterbrechung zwischen den beiden Verschiebungen ließ sich der vorherige Bestand vollständig zurückholen. Die ursprüngliche Rückwegkopie blieb erhalten; die zusätzlichen Testverzeichnisse wurden danach entfernt.
+
+Diese gezielte Nachprüfung betrifft die geänderten Dateioperationen. Sie wurde in einer vorhandenen Ubuntu-Linux-VM ausgeführt und wiederholt weder den früheren Caddy-/Browsernachweis noch eine unabhängige Testlektüre. Bestehende Dienste und andere Arbeitsdaten wurden dafür nicht verändert.

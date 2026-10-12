@@ -24,4 +24,4 @@ Verwenden Sie für die Übungen die mitgelieferten erfundenen Daten. Eigene Pass
 
 Die [Testberichte](../pruefungen/README.md) ordnen beobachtete Ergebnisse den jeweiligen Aufbauten zu. Für ein vereinbartes Probelesen verwenden Sie den [Testleser-Leitfaden](../mitmachen/README.md).
 
-**Materialfassung 2026.10.12 · 12. Oktober 2026.** [Fassung und Änderungen](../VERSION.md) · [Zur Startseite](../README.md)
+**Materialfassung 2026.10.12-r2 · 12. Oktober 2026.** [Fassung und Änderungen](../VERSION.md) · [Zur Startseite](../README.md)
