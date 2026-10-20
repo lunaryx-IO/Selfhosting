@@ -1,6 +1,6 @@
 # Die Materialdateien lesend prüfen
 
-Dieses optionale Werkzeug kontrolliert lokale Markdown-Links, vorhandene Abschnittsziele, die Dateiprüfsummen und die Integrität der ZIP-Dateien. Es verändert keine Datei, greift nicht auf Server zu und benötigt keine zusätzlichen Python-Pakete.
+Dieses optionale Werkzeug kontrolliert lokale Markdown-Links, vorhandene Abschnittsziele, die Dateiprüfsummen, sämtliche Bandmanifeste und alle ZIP-Dateien auch in den datierten Unterordnern. Jedes ZIP-Mitglied wird vollständig gelesen. Aktuelle Pakete werden mit den örtlichen Dateien verglichen, die früheren Webhosting-Pakete mit ihrer eingebetteten vollständigen Prüfsummenliste. Es verändert keine Datei, greift nicht auf Server zu und benötigt keine zusätzlichen Python-Pakete.
 
 Vom entpackten Repository aus:
 

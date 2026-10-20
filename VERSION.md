@@ -22,6 +22,8 @@ Die erste Materialfassung der Dreierreihe vom selben Tag bleibt unter [2026.10.2
 
 ## Frühere Ausgabe
 
-Die Ordner `band-1`, `band-2`, `pakete`, `pruefungen` und `mitmachen` auf der obersten Ebene gehören weiterhin zur früheren **Webhosting**-Ausgabe. Ihre datierte [Veröffentlichung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4), die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) und deren [Fassungsbeschreibung](VERSION_WEBHOSTING_20261012-r4.md) bleiben erhalten. Die dortigen Prüfergebnisse gelten für ihren damaligen Stand.
+Das [Archiv der Materialfassungen](Archiv/README.md) ordnet die älteren Ausgaben zu. Die Ordner `band-1`, `band-2`, `pakete`, `pruefungen` und `mitmachen` auf der obersten Ebene gehören weiterhin zur früheren **Webhosting**-Ausgabe. Ihre datierte [Veröffentlichung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4), die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) und deren [Fassungsbeschreibung](VERSION_WEBHOSTING_20261012-r4.md) bleiben erhalten. Die dortigen Prüfergebnisse gelten für ihren damaligen Stand.
 
 Für Rückmeldungen genügen Band, Kapitel, Abschnitt und Materialfassung. Spätere Korrekturen stehen in den [Änderungshinweisen](AENDERUNGEN.md).
+
+**Navigation überarbeitet am 21. Oktober 2026.** Die Materialdateien und die datierten ZIP-Pakete bleiben auf dem unveränderten Stand 2026.10.20-r2.

@@ -1,25 +1,33 @@
 # Begleitmaterial zur Linux-Server-Reihe
 
-Willkommen bei den Begleitmaterialien zu **Linux-Server – Das umfassende Praxisbuch** von Franz Claus. Hier finden Sie die Dateien aus dem Werkstattbeispiel, ausfüllbare Arbeitsvorlagen und zusätzliche Übungen mit Lösungen. Wählen Sie den Band, mit dem Sie gerade arbeiten.
+Willkommen bei **Linux-Server – Das umfassende Praxisbuch** von Franz Claus. Wählen Sie Ihren Band und laden Sie das passende Paket herunter. Ein GitHub-Konto oder Git-Kenntnisse brauchen Sie dafür nicht.
 
-| Ihr Buch | Hier beginnen | Vollständiges Paket herunterladen |
+**Aktuell: Materialfassung 2026.10.20-r2, passend zu den drei Testleserfassungen vom 20. Oktober 2026.**
+
+| Ihr Buch | Alles für diesen Band | Erst einmal ansehen |
 |---|---|---|
-| Band 1 · Websites aufbauen und sicher betreiben | [Material für Band 1](linux-server_2026-10-20-r2/band-1/README.md) | [Band 1 als ZIP](linux-server_2026-10-20-r2/pakete/Linux_Server_Band_1_Begleitmaterial_20261020_r2.zip) |
-| Band 2 · Webanwendungen betreiben und Abläufe automatisieren | [Material für Band 2](linux-server_2026-10-20-r2/band-2/README.md) | [Band 2 als ZIP](linux-server_2026-10-20-r2/pakete/Linux_Server_Band_2_Begleitmaterial_20261020_r2.zip) |
-| Band 3 · Datei- und Mailserver sicher betreiben | [Material für Band 3](linux-server_2026-10-20-r2/band-3/README.md) | [Band 3 als ZIP](linux-server_2026-10-20-r2/pakete/Linux_Server_Band_3_Begleitmaterial_20261020_r2.zip) |
+| **Band 1** · Websites aufbauen und sicher betreiben | [ZIP herunterladen](https://github.com/lunaryx-IO/Selfhosting/releases/download/material-2026.10.20-r2/Linux_Server_Band_1_Begleitmaterial_20261020_r2.zip) | [Dateien und Anleitung](linux-server_2026-10-20-r2/band-1/README.md) |
+| **Band 2** · Webanwendungen betreiben und Abläufe automatisieren | [ZIP herunterladen](https://github.com/lunaryx-IO/Selfhosting/releases/download/material-2026.10.20-r2/Linux_Server_Band_2_Begleitmaterial_20261020_r2.zip) | [Dateien und Anleitung](linux-server_2026-10-20-r2/band-2/README.md) |
+| **Band 3** · Datei- und Mailserver sicher betreiben | [ZIP herunterladen](https://github.com/lunaryx-IO/Selfhosting/releases/download/material-2026.10.20-r2/Linux_Server_Band_3_Begleitmaterial_20261020_r2.zip) | [Dateien und Anleitung](linux-server_2026-10-20-r2/band-3/README.md) |
 
-Öffnen Sie den ZIP-Link Ihres Bandes und laden Sie die Datei über die Download-Schaltfläche herunter. Entpacken Sie sie in einen neuen Ordner. Im enthaltenen Bandordner führt `README.md` zu den einzelnen Materialien. Ein GitHub-Konto oder Git-Kenntnisse benötigen Sie dafür nicht.
+## Nach dem Herunterladen
 
-Eine [kurze Starthilfe](START.md) erklärt den Download und den Einstieg.
+Entpacken Sie das ZIP in einen neuen Ordner. Darin liegt `band-1`, `band-2` oder `band-3`; öffnen Sie dessen `README.md`. Sie führt zu den einzelnen Dateien. Die Texte mit der Endung `.md` lassen sich mit einem gewöhnlichen Texteditor lesen und bearbeiten. Speichern Sie ausgefüllte Betriebshefte als eigene Arbeitskopien.
 
-Die `.md`-Dateien lassen sich mit einem gewöhnlichen Texteditor lesen und bearbeiten. Speichern Sie ausgefüllte Vorlagen als eigene Arbeitskopien. Längere Programme und Konfigurationen aus Band 3 liegen zusätzlich als zwölf Kopiervorlagen bei. Verwenden Sie jede davon erst an der zugehörigen Stelle im Buch: Dort stehen Vorbereitung, eigene Werte, Prüfungen und Rückweg.
+Die [kurze Starthilfe](START.md) erklärt den Ablauf etwas genauer. Wenn Sie nur eine Erklärung nachlesen möchten, können Sie die Materialien auch direkt über die rechte Tabellenspalte öffnen.
 
-**Materialfassung 2026.10.20-r2 · 20. Oktober 2026.** Diese Fassung gehört zu den Testleser-Mastern vom 20. Oktober 2026 nach der abschließenden Sprach- und Verweisredaktion. Die jeweilige `VERSION.md` beschreibt die Zuordnung zum Buch und den Prüfstand. Die [gemeinsame Übersicht](linux-server_2026-10-20-r2/README.md) und die [Prüfsummen der drei Archive](linux-server_2026-10-20-r2/pakete/SHA256SUMS.txt) helfen beim Wiederfinden und Vergleichen.
+## Was liegt in den Paketen?
 
-Die Beispiele verwenden erfundene Werkstattdaten. Persönliche Zugänge und echte Kundendaten gehören nicht in eine weitergegebene Arbeitskopie; Ihre ausgefüllten Betriebsunterlagen bleiben bei Ihnen.
+- **Band 1:** Betriebsheft, Kostenplanung, die vier Dateien der Werkstattwebsite, DNS-Übung, geschützte Proxyprobe und Quellen.
+- **Band 2:** Betriebsheft mit ausführlichen Kostenbeispielen, Diagnosefälle, drei KI-Arbeitsfälle mit erklärten Lösungen, Prüfauftrag für die Terminverwaltung und Quellen.
+- **Band 3:** Betriebsheft für Dateien und Postfächer, Kostenplanung, vier Diagnosefälle, zwölf Kopiervorlagen und Quellen.
 
-Die frühere zweibändige Webhosting-Ausgabe bleibt als [datierte Veröffentlichung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4) erreichbar. Ihre Dateien gehören zu diesem älteren Buchstand.
+Die Bücher erklären die Voraussetzungen, Ihre eigenen einzusetzenden Werte, die Durchführung und den Rückweg. Benutzen Sie eine Vorlage an der zugehörigen Stelle im Buch; das Entpacken startet keine Programme. Die Beispiele arbeiten mit erfundenen Werkstattdaten.
 
-Die erste Materialfassung der Dreierreihe vom selben Tag bleibt als [2026.10.20](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.20) erhalten. Verwenden Sie für die neuen Testleser-Master die oben verlinkte Fassung r2.
+## Eine Rückmeldung geben oder eine ältere Ausgabe finden
 
-[Änderungen](AENDERUNGEN.md) · [Fassungen und Prüfsummen](VERSION.md) · [Eine Rückmeldung geben](RUECKMELDUNG.md)
+Für einen Hinweis genügen Band, Kapitel, Abschnitt und Materialfassung. Der [Rückmeldebogen für alle drei Bände](RUECKMELDEBLATT.md) hilft beim Festhalten einer konkreten Stelle. [So geben Sie eine Rückmeldung weiter](RUECKMELDUNG.md).
+
+Verwenden Sie ein älteres Buch, führt das [Archiv der Materialfassungen](Archiv/README.md) zum passenden früheren Download. Die damaligen Adressen bleiben erreichbar.
+
+[Fassung und Prüfstand](VERSION.md) · [Änderungen](AENDERUNGEN.md) · [Prüfsummen der aktuellen Downloads](linux-server_2026-10-20-r2/pakete/SHA256SUMS.txt).

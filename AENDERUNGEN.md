@@ -1,5 +1,13 @@
 # Änderungen an den Begleitmaterialien
 
+## 21. Oktober 2026 · Einfacher zum passenden Material
+
+- Die Startseite führt direkt zu den drei Downloads und zu den jeweiligen Banddateien.
+- Eine Archivübersicht ordnet frühere Buch- und Materialfassungen zu; bestehende Adressen bleiben erreichbar.
+- Der Rückmeldebogen passt zu allen drei aktuellen Bänden.
+- Die optionale Dateiprüfung erfasst auch die Manifeste und ZIP-Inhalte der datierten Bandpakete.
+- Materialfassung 2026.10.20-r2 und alle datierten Downloadpakete bleiben unverändert.
+
 ## 2026.10.20-r2 · Abgleich mit den drei Testleser-Mastern
 
 - Abschließende Sprachredaktion und lesefreundlichere Verweise in Buch und Material zusammengeführt.

@@ -9,7 +9,7 @@ Willkommen bei den Begleitmaterialien zu **Webhosting – Das umfassende Praxisb
 | **Band 1** · Websites aufbauen und sicher betreiben | [Material für Band 1](band-1/README.md) | [Band 1 als ZIP](pakete/Webhosting_Band_1_Begleitmaterial.zip) |
 | **Band 2** · Webanwendungen betreiben und Abläufe automatisieren | [Material für Band 2](band-2/README.md) | [Band 2 als ZIP](pakete/Webhosting_Band_2_Begleitmaterial.zip) |
 
-**Neu auf GitHub?** Die [kurze Starthilfe](START.md) führt Sie zum richtigen Download. Zum Lesen und Herunterladen benötigen Sie weder ein GitHub-Konto noch Git-Kenntnisse.
+**Dies ist die frühere zweibändige Webhosting-Ausgabe.** Die [datierte Veröffentlichung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4) enthält ihre beiden Downloadpakete. Zum Lesen und Herunterladen benötigen Sie kein GitHub-Konto. Zur heutigen dreibändigen Linux-Server-Reihe führt die [aktuelle Startseite](README.md).
 
 ## Was möchten Sie gerade tun?
 
@@ -20,4 +20,4 @@ Willkommen bei den Begleitmaterialien zu **Webhosting – Das umfassende Praxisb
 
 Die Beispiele arbeiten mit erfundenen Werkstattdaten. Persönliche Zugänge und echte Kundendaten werden dafür nicht benötigt. Ihre ausgefüllten Betriebsunterlagen behalten Sie bei sich.
 
-**Materialfassung 2026.10.12-r4 · 12. Oktober 2026.** Sie gehört zum Textstand beider Bände vom 12. Oktober 2026. Welche Änderungen später hinzukommen, steht in den [Änderungshinweisen](AENDERUNGEN.md). [Fassungszuordnung und Prüfsummen](VERSION.md) helfen, Buch und Download zusammenzuhalten.
+**Materialfassung 2026.10.12-r4 · 12. Oktober 2026.** Sie gehört zum Textstand beider Bände vom 12. Oktober 2026. Welche Änderungen später hinzukommen, steht in den [Änderungshinweisen](AENDERUNGEN.md). [Fassungszuordnung und Prüfsummen](VERSION_WEBHOSTING_20261012-r4.md) helfen, Buch und Download zusammenzuhalten.

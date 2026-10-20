@@ -6,11 +6,11 @@ Die Unterlagen lassen sich direkt im Browser lesen. Wenn Sie eigene Notizen erg�
 
 Die Fassung **2026.10.20-r2** gehört zu **Linux-Server – Das umfassende Praxisbuch**:
 
-- [Band 1 herunterladen](linux-server_2026-10-20-r2/pakete/Linux_Server_Band_1_Begleitmaterial_20261020_r2.zip?raw=true): Werkstattwebsite, Betriebsheft, DNS-Übung, geschützte Proxyprobe und Quellen.
-- [Band 2 herunterladen](linux-server_2026-10-20-r2/pakete/Linux_Server_Band_2_Begleitmaterial_20261020_r2.zip?raw=true): vollständiges Betriebsheft mit Kostenbeispielen, Diagnosefälle, Terminprüfung, KI-Arbeitsfälle mit erklärten Lösungen und Quellen.
-- [Band 3 herunterladen](linux-server_2026-10-20-r2/pakete/Linux_Server_Band_3_Begleitmaterial_20261020_r2.zip?raw=true): Betriebsheft für Dateien und Postfächer, vier Diagnosefälle, zwölf Kopiervorlagen, Kostenplanung und Quellen.
+- [Band 1 herunterladen](https://github.com/lunaryx-IO/Selfhosting/releases/download/material-2026.10.20-r2/Linux_Server_Band_1_Begleitmaterial_20261020_r2.zip): Werkstattwebsite, Betriebsheft, DNS-Übung, geschützte Proxyprobe und Quellen.
+- [Band 2 herunterladen](https://github.com/lunaryx-IO/Selfhosting/releases/download/material-2026.10.20-r2/Linux_Server_Band_2_Begleitmaterial_20261020_r2.zip): vollständiges Betriebsheft mit Kostenbeispielen, Diagnosefälle, Terminprüfung, KI-Arbeitsfälle mit erklärten Lösungen und Quellen.
+- [Band 3 herunterladen](https://github.com/lunaryx-IO/Selfhosting/releases/download/material-2026.10.20-r2/Linux_Server_Band_3_Begleitmaterial_20261020_r2.zip): Betriebsheft für Dateien und Postfächer, vier Diagnosefälle, zwölf Kopiervorlagen, Kostenplanung und Quellen.
 
-Sollte GitHub zunächst die Dateiansicht zeigen, verwenden Sie das Download-Symbol oder **Download raw file**. Ein GitHub-Konto benötigen Sie dafür nicht. Entpacken Sie das ZIP in einen neuen Ordner; Ihre bereits ausgefüllten Arbeitsdateien bleiben so erhalten.
+Die Links laden das jeweilige ZIP direkt herunter. Ein GitHub-Konto benötigen Sie dafür nicht. Entpacken Sie das ZIP in einen neuen Ordner; Ihre bereits ausgefüllten Arbeitsdateien bleiben so erhalten.
 
 ## 2. Mit der README im Bandordner beginnen
 
@@ -26,6 +26,6 @@ Ihre persönlichen Zugänge, Schlüssel und echten Kundendaten bleiben in ihrer 
 
 ## Wenn Sie die frühere Webhosting-Ausgabe verwenden
 
-Die [Materialfassung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4) und die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) bleiben erreichbar. Verwenden Sie deren Pakete für den entsprechenden älteren Buchstand.
+Das [Archiv der früheren Materialfassungen](Archiv/README.md) hilft bei der Zuordnung. Die [Materialfassung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4) und die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) bleiben erreichbar. Verwenden Sie deren Pakete für den entsprechenden älteren Buchstand.
 
 [Zur Startseite](README.md)

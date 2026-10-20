@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Lesende Prüfung der lokalen Links und Prüfsummen. Python 3, keine Zusatzpakete."""
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from urllib.parse import urlsplit, unquote
 from html import unescape
 from zipfile import ZipFile
@@ -49,15 +49,98 @@ def check(root):
             if u.fragment and dest.suffix=='.md':
                 if dest not in cache:cache[dest]=anchors(dest.read_text(encoding='utf-8'))
                 if unquote(u.fragment) not in cache[dest]:errors.append([str(p.relative_to(root)),link,'Abschnitt fehlt'])
-    for p in [root/'DATEIEN.sha256',root/'pakete/SHA256SUMS.txt']:
+    checksum_files=([root/'DATEIEN.sha256'] if (root/'DATEIEN.sha256').exists() else [])
+    checksum_files+=sorted(p for p in root.rglob('SHA256SUMS.txt') if '.git' not in p.relative_to(root).parts)
+    for p in checksum_files:
         if p.exists():
             for row in p.read_text().splitlines():
-                expected,rel=row.split('  ',1);target=p.parent/rel
+                if not row.strip():continue
+                try:expected,rel=row.split('  ',1)
+                except ValueError:
+                    errors.append([str(p.relative_to(root)),row,'Ungültige Prüfsummenzeile']);continue
+                target=(p.parent/rel).resolve()
+                if not target.is_relative_to(root):
+                    errors.append([str(p.relative_to(root)),rel,'außerhalb des Pakets']);continue
                 if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest()!=expected:errors.append([str(p.relative_to(root)),rel,'Prüfsumme stimmt nicht'])
-    for p in (root/'pakete').glob('*.zip') if (root/'pakete').exists() else []:
-        with ZipFile(p) as z:
-            if z.testzip():errors.append([str(p.relative_to(root)),'','ZIP beschädigt'])
-    return {'markdown_files':len(mds),'local_links_checked':checked,'errors':errors}
+    manifests=0;manifest_files=0;zip_files=0;zip_members=0
+    for p in sorted(root.rglob('manifest.json')):
+        if '.git' in p.relative_to(root).parts:continue
+        try:
+            data=json.loads(p.read_text(encoding='utf-8'))
+            if 'band' not in data or 'files' not in data:continue
+            manifests+=1;seen=set()
+            for item in data['files']:
+                rel=item['path'];target=(p.parent/rel).resolve();manifest_files+=1
+                if rel in seen:errors.append([str(p.relative_to(root)),rel,'Doppelter Manifesteintrag'])
+                seen.add(rel)
+                if not target.is_relative_to(p.parent.resolve()):
+                    errors.append([str(p.relative_to(root)),rel,'außerhalb des Bandpakets']);continue
+                if not target.is_file():
+                    errors.append([str(p.relative_to(root)),rel,'Manifestdatei fehlt']);continue
+                raw=target.read_bytes()
+                if len(raw)!=item['bytes'] or hashlib.sha256(raw).hexdigest()!=item['sha256']:
+                    errors.append([str(p.relative_to(root)),rel,'Manifestinhalt stimmt nicht'])
+            actual={f.relative_to(p.parent).as_posix() for f in p.parent.rglob('*') if f.is_file() and f!=p}
+            if actual!=seen:errors.append([str(p.relative_to(root)),'','Manifest-Dateimenge unvollständig oder überzählig'])
+            for item in data.get('sources',[]):
+                target=(p.parent.parent/item['destination']).resolve()
+                if not target.is_relative_to(p.parent.resolve()) or not target.is_file():
+                    errors.append([str(p.relative_to(root)),item['destination'],'Quellzuordnung hat kein Bandziel']);continue
+                if hashlib.sha256(target.read_bytes()).hexdigest()!=item['sha256']:
+                    errors.append([str(p.relative_to(root)),item['destination'],'Quellziel stimmt nicht'])
+        except (ValueError,KeyError,TypeError,OSError) as exc:
+            errors.append([str(p.relative_to(root)),'','Manifest nicht prüfbar: '+str(exc)])
+    for p in sorted(root.rglob('*.zip')):
+        if '.git' in p.relative_to(root).parts:continue
+        zip_files+=1
+        try:
+            with ZipFile(p) as z:
+                names=set();contents={}
+                for info in z.infolist():
+                    if info.filename in names:errors.append([str(p.relative_to(root)),info.filename,'Doppeltes ZIP-Mitglied'])
+                    names.add(info.filename)
+                    if info.is_dir():continue
+                    zip_members+=1;contents[info.filename]=z.read(info)
+                    member=PurePosixPath(info.filename)
+                    if member.is_absolute() or '..' in member.parts or '\\' in info.filename:
+                        errors.append([str(p.relative_to(root)),info.filename,'Unsicherer Mitgliedspfad'])
+                embedded=[n for n in contents if n.endswith('/DATEIEN.sha256')]
+                if embedded:
+                    # Frühere Webhosting-Pakete sind eigenständige datierte Ausgaben
+                    # mit einem gemeinsamen äußeren Ordner und eigener Navigation.
+                    if len(embedded)!=1:
+                        errors.append([str(p.relative_to(root)),'','Mehrdeutige eingebettete Prüfsummenliste']);continue
+                    checksum=embedded[0];prefix=checksum.rsplit('/',1)[0]+'/';expected_members={checksum}
+                    for row in contents[checksum].decode('utf-8').splitlines():
+                        if not row.strip():continue
+                        expected,rel=row.split('  ',1);member=prefix+rel
+                        if member in expected_members:
+                            errors.append([str(p.relative_to(root)),member,'Doppelte eingebettete Prüfsumme'])
+                        expected_members.add(member)
+                        if member not in contents or hashlib.sha256(contents[member]).hexdigest()!=expected:
+                            errors.append([str(p.relative_to(root)),member,'Eingebettete Prüfsumme stimmt nicht'])
+                    if expected_members!=set(contents):
+                        errors.append([str(p.relative_to(root)),'','ZIP-Dateimenge passt nicht zur eigenen Prüfsummenliste'])
+                else:
+                    band=re.search(r'_Band_([123])_',p.name)
+                    bandroot=p.parent.parent/('band-'+band[1]) if band else None
+                    if bandroot is None or not (bandroot/'manifest.json').is_file():
+                        errors.append([str(p.relative_to(root)),'','ZIP hat kein zugeordnetes Bandmanifest'])
+                    else:
+                        expected_members={f.relative_to(p.parent.parent).as_posix() for f in bandroot.rglob('*') if f.is_file()}
+                        if set(contents)!=expected_members:
+                            errors.append([str(p.relative_to(root)),'','ZIP-Dateimenge passt nicht zum vollständigen Bandpaket'])
+                    for member,raw in contents.items():
+                        target=(p.parent.parent/member).resolve()
+                        if not target.is_relative_to(root) or not target.is_file():
+                            errors.append([str(p.relative_to(root)),member,'ZIP-Mitglied hat kein örtliches Ziel']);continue
+                        if raw!=target.read_bytes():errors.append([str(p.relative_to(root)),member,'ZIP-Inhalt stimmt nicht mit örtlicher Datei überein'])
+        except (ValueError,OSError,RuntimeError,EOFError) as exc:
+            errors.append([str(p.relative_to(root)),'','ZIP nicht prüfbar: '+str(exc)])
+        except Exception as exc:
+            # zipfile.BadZipFile und Kompressionsfehler als Befund ausgeben.
+            errors.append([str(p.relative_to(root)),'','ZIP beschädigt: '+str(exc)])
+    return {'markdown_files':len(mds),'local_links_checked':checked,'checksum_lists':len(checksum_files),'manifests':manifests,'manifest_files':manifest_files,'zip_files':zip_files,'zip_members':zip_members,'errors':errors}
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--root',type=Path,default=Path(__file__).resolve().parents[1]);args=parser.parse_args()
