@@ -1,5 +1,12 @@
 # Änderungen an den Begleitmaterialien
 
+## 2026.10.20-r2 · Abgleich mit den drei Testleser-Mastern
+
+- Abschließende Sprachredaktion und lesefreundlichere Verweise in Buch und Material zusammengeführt.
+- Materialfassung und Quellenzuordnung für alle drei Bände eindeutig aktualisiert.
+- Drei eigenständige ZIP-Pakete vollständig entpackt und gegen ihre aktuellen Quellen geprüft; technische Vorlagen bleiben wortgetreu.
+- Frühere Materialfassungen und deren Nachweise bleiben erhalten.
+
 ## 2026.10.20 · Drei Bandpakete zur Linux-Server-Reihe
 
 - Neue getrennte Pakete für Websites, Webanwendungen sowie Datei- und Mailserver.

@@ -1,0 +1,31 @@
+compatibility_level = 3.6
+myhostname = mail.post.example.org
+mydomain = post.example.org
+myorigin = $myhostname
+mydestination = $myhostname, localhost.$mydomain, localhost
+
+inet_interfaces = loopback-only
+inet_protocols = ipv4
+mynetworks = 127.0.0.0/8
+
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+relay_domains =
+virtual_alias_domains =
+
+virtual_mailbox_domains = post.example.org
+virtual_mailbox_maps = hash:/etc/postfix/vmailbox
+virtual_alias_maps = hash:/etc/postfix/virtual
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+
+smtpd_relay_restrictions = reject_unauth_destination
+smtpd_reject_unlisted_recipient = yes
+smtpd_sasl_auth_enable = no
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sender_login_maps = hash:/etc/postfix/sender_login
+
+smtpd_tls_security_level = none
+smtp_tls_security_level = may
+default_transport = error:Ausgehender Versand ist in dieser Lernphase geschlossen
+authorized_submit_users = root, webadmin

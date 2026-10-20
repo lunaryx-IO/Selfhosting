@@ -1,0 +1,49 @@
+{
+    admin off
+    persist_config off
+    auto_https off
+}
+
+http://:9180 {
+    bind 127.0.0.1
+    log {
+        output stdout
+        format json
+    }
+
+    @falscher_host not host werkraum.test
+
+    route {
+        respond @falscher_host "Unbekannter HTTP-Host in der Proxyprobe" 421
+        redir /alt /infos.html 302
+
+        handle_path /dienst/* {
+            reverse_proxy 127.0.0.1:9181 {
+                transport http {
+                    dial_timeout 2s
+                    response_header_timeout 3s
+                }
+            }
+        }
+
+        handle {
+            root * /home/webadmin/webhosting-proxy-labor/www
+            file_server
+        }
+    }
+}
+
+http://:9181 {
+    bind 127.0.0.1
+    log {
+        output stdout
+        format json
+    }
+    header Content-Type text/plain
+
+    route {
+        respond /zeiten "Werkraum-Probe: Montag bis Freitag nach Vereinbarung." 200
+        respond /diagnose "host={http.request.host}; uri={http.request.uri}; peer={http.request.remote.host}; xff={http.request.header.X-Forwarded-For}; proto={http.request.header.X-Forwarded-Proto}" 200
+        respond "Upstream-Pfad in der Proxyprobe unbekannt" 404
+    }
+}
