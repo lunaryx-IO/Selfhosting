@@ -1,0 +1,187 @@
+{
+  "edition": "Linux-Server 2026-10-20",
+  "materialVersion": "2026.10.20",
+  "band": 1,
+  "sources": [
+    {
+      "source": "band-1/anhang/AN001_kosten_und_ressourcen.md",
+      "sourceSha256": "238919ac3f03509b5813abadf0bd22159bc2e874e0017c4d711aa120673f7b14",
+      "destination": "band-1/AN001_kosten_und_ressourcen.md",
+      "sha256": "08516d4343dec3147ab4c94b256a0dc0486864477619e901eb9682d15e064395",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-1/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "fd305998f6abdfb926dbead2bd1f52e6cfb46a5153bb18845663e690fe24ab0f",
+      "destination": "band-1/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "3788ebaf45630b9794d9dc0eeb11ac860833736f07632a1f58b48473dba31b4b",
+      "codeBlocks": 4
+    },
+    {
+      "source": "band-1/beilagen/BL04_diagnose_und_alarmfaelle.md",
+      "sourceSha256": "2c9a3397b6d5f2083867f9a838a417997297c850761f852e7d4fb22675a0c45e",
+      "destination": "band-1/BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "02d074feaf3e0a238354dc3735e51dc6d19d7e6c6e5ddb6fc3198f1f01ae94ed",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-1/beilagen/BL07_quellen_und_links.md",
+      "sourceSha256": "97623ecb93ec74509ceabb9153da0e8b3a32fc08411f3a92b22acbeac254f2b2",
+      "destination": "band-1/BL07_quellen_und_links.md",
+      "sha256": "67680d5b25e0a32e9f726b4cf34fb6f70e311bf4a0537b9dabdd35ef3fa9ef98",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-1/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "fd305998f6abdfb926dbead2bd1f52e6cfb46a5153bb18845663e690fe24ab0f",
+      "destination": "band-1/arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "03eaa3e82ea3260e933b4be36b34ab6772a3a10034eaf4deee684399cb673b33",
+      "method": "Nur die ausdrücklich benannten Blankovorlagen wortgetreu; ausgefülltes Beispiel verbleibt in BL01. Band 2 zusätzlich vollständige Anwendungsergänzung"
+    },
+    {
+      "source": "band-1/kapitel/K012_eine_vollstaendige_statische_website_betreiben.md",
+      "sourceSha256": "0ac4524ad39af4a43366e00000db9e48ddb0582273b5be1b5a116f4d28c791d8",
+      "method": "Wortgetreuer vollständiger Markdown-Block",
+      "destination": "band-1/beispiele/website-r1/index.html",
+      "sha256": "a54092d4f4ee2e6795a7dca934c3e7038ed605b53e0e6f507e8b44e0d920b8aa"
+    },
+    {
+      "source": "band-1/kapitel/K012_eine_vollstaendige_statische_website_betreiben.md",
+      "sourceSha256": "0ac4524ad39af4a43366e00000db9e48ddb0582273b5be1b5a116f4d28c791d8",
+      "method": "Wortgetreuer vollständiger Markdown-Block",
+      "destination": "band-1/beispiele/website-r1/termine.html",
+      "sha256": "de83966dfc5cfae3c1d00c4b2667a3271929f98c3edbf20000ec997e039e53cd"
+    },
+    {
+      "source": "band-1/kapitel/K012_eine_vollstaendige_statische_website_betreiben.md",
+      "sourceSha256": "0ac4524ad39af4a43366e00000db9e48ddb0582273b5be1b5a116f4d28c791d8",
+      "method": "Wortgetreuer vollständiger Markdown-Block",
+      "destination": "band-1/beispiele/website-r1/projekt.html",
+      "sha256": "af71f18011e637d3ed2bbf21f7dfb4fcdaab0b312776b4e8aaea183f89f730fc"
+    },
+    {
+      "source": "band-1/kapitel/K012_eine_vollstaendige_statische_website_betreiben.md",
+      "sourceSha256": "0ac4524ad39af4a43366e00000db9e48ddb0582273b5be1b5a116f4d28c791d8",
+      "method": "Wortgetreuer vollständiger Markdown-Block",
+      "destination": "band-1/beispiele/website-r1/stil.css",
+      "sha256": "771b22b6d49090a12f98e47026ce89c86e91c663c6928883dc6ac28c5ac88cab"
+    },
+    {
+      "source": "band-1/kapitel/K042_http_tls_und_reverse_proxy_gezielt_untersuchen.md",
+      "sourceSha256": "88637f6d0fa964d672d344b4ba5a7b839e6f84e5ae9c58227d367c36e645ae8c",
+      "method": "Wortgetreuer vollständiger Markdown-Block",
+      "destination": "band-1/beispiele/proxy-labor/www/index.html",
+      "sha256": "aa385d78a44fd82413631a952f1c65d7430a20fe1f12c1ebf296b233941e92d7"
+    },
+    {
+      "source": "band-1/kapitel/K042_http_tls_und_reverse_proxy_gezielt_untersuchen.md",
+      "sourceSha256": "88637f6d0fa964d672d344b4ba5a7b839e6f84e5ae9c58227d367c36e645ae8c",
+      "method": "Wortgetreuer vollständiger Markdown-Block",
+      "destination": "band-1/beispiele/proxy-labor/Caddyfile",
+      "sha256": "30c0cd087bbce885ee7b0f956e53fd67fe16cfcd350a334fd1dc7e907b088e6c"
+    },
+    {
+      "source": "band-1/kapitel/K042_http_tls_und_reverse_proxy_gezielt_untersuchen.md",
+      "sourceSha256": "88637f6d0fa964d672d344b4ba5a7b839e6f84e5ae9c58227d367c36e645ae8c",
+      "destination": "band-1/beispiele/proxy-labor/www/infos.html",
+      "sha256": "64640408522f6c347fa1a1cf8f6c80148d3e77657452427bd28fc73bee4c78fd",
+      "method": "Vollständiger HTML-Block mit genau den zwei im Kapitel beschriebenen Ersetzungen"
+    },
+    {
+      "source": "begleitmaterial/band-1/beispiele/website-r1/README.md",
+      "sourceSha256": "cd86a298a90045146c4876851de51aca358a32a8a7e95037e0db4378599cd152",
+      "destination": "band-1/beispiele/website-r1/README.md",
+      "sha256": "cd86a298a90045146c4876851de51aca358a32a8a7e95037e0db4378599cd152",
+      "method": "Unveränderte Verwendungshinweise zum Kapitelbeispiel"
+    },
+    {
+      "source": "begleitmaterial/band-1/beispiele/proxy-labor/README.md",
+      "sourceSha256": "ee4ef2d6fc1bc8af7d027f5414d219c5ec63f88780be353947aaaf601df0f2a2",
+      "destination": "band-1/beispiele/proxy-labor/README.md",
+      "sha256": "ec9542b0601fe8da7c0fa5238cd576c3bc7ab0b92bcd64b233d6d6385d641012",
+      "method": "Verwendungshinweise; ausschließlich der Verweis auf die frühere externe Zusatzübung entfällt"
+    }
+  ],
+  "files": [
+    {
+      "path": "AN001_kosten_und_ressourcen.md",
+      "sha256": "08516d4343dec3147ab4c94b256a0dc0486864477619e901eb9682d15e064395",
+      "bytes": 35905
+    },
+    {
+      "path": "BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "3788ebaf45630b9794d9dc0eeb11ac860833736f07632a1f58b48473dba31b4b",
+      "bytes": 27542
+    },
+    {
+      "path": "BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "02d074feaf3e0a238354dc3735e51dc6d19d7e6c6e5ddb6fc3198f1f01ae94ed",
+      "bytes": 9542
+    },
+    {
+      "path": "BL07_quellen_und_links.md",
+      "sha256": "67680d5b25e0a32e9f726b4cf34fb6f70e311bf4a0537b9dabdd35ef3fa9ef98",
+      "bytes": 93047
+    },
+    {
+      "path": "arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "03eaa3e82ea3260e933b4be36b34ab6772a3a10034eaf4deee684399cb673b33",
+      "bytes": 6094
+    },
+    {
+      "path": "beispiele/website-r1/index.html",
+      "sha256": "a54092d4f4ee2e6795a7dca934c3e7038ed605b53e0e6f507e8b44e0d920b8aa",
+      "bytes": 830
+    },
+    {
+      "path": "beispiele/website-r1/termine.html",
+      "sha256": "de83966dfc5cfae3c1d00c4b2667a3271929f98c3edbf20000ec997e039e53cd",
+      "bytes": 894
+    },
+    {
+      "path": "beispiele/website-r1/projekt.html",
+      "sha256": "af71f18011e637d3ed2bbf21f7dfb4fcdaab0b312776b4e8aaea183f89f730fc",
+      "bytes": 989
+    },
+    {
+      "path": "beispiele/website-r1/stil.css",
+      "sha256": "771b22b6d49090a12f98e47026ce89c86e91c663c6928883dc6ac28c5ac88cab",
+      "bytes": 647
+    },
+    {
+      "path": "beispiele/proxy-labor/www/index.html",
+      "sha256": "aa385d78a44fd82413631a952f1c65d7430a20fe1f12c1ebf296b233941e92d7",
+      "bytes": 289
+    },
+    {
+      "path": "beispiele/proxy-labor/Caddyfile",
+      "sha256": "30c0cd087bbce885ee7b0f956e53fd67fe16cfcd350a334fd1dc7e907b088e6c",
+      "bytes": 1177
+    },
+    {
+      "path": "beispiele/proxy-labor/www/infos.html",
+      "sha256": "64640408522f6c347fa1a1cf8f6c80148d3e77657452427bd28fc73bee4c78fd",
+      "bytes": 283
+    },
+    {
+      "path": "beispiele/website-r1/README.md",
+      "sha256": "cd86a298a90045146c4876851de51aca358a32a8a7e95037e0db4378599cd152",
+      "bytes": 1270
+    },
+    {
+      "path": "beispiele/proxy-labor/README.md",
+      "sha256": "ec9542b0601fe8da7c0fa5238cd576c3bc7ab0b92bcd64b233d6d6385d641012",
+      "bytes": 973
+    },
+    {
+      "path": "README.md",
+      "sha256": "3e2b2b38da40866ea18663ca65edc5b0013465021193946155a9f464a3c18675",
+      "bytes": 1885
+    },
+    {
+      "path": "VERSION.md",
+      "sha256": "aa4dfbb82a17f2666409543a327935fbd95ceab46631b30c58fb8aa391ba5d1c",
+      "bytes": 1706
+    }
+  ]
+}

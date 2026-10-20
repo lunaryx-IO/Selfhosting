@@ -1,5 +1,13 @@
 # Änderungen an den Begleitmaterialien
 
+## 2026.10.20 · Drei Bandpakete zur Linux-Server-Reihe
+
+- Neue getrennte Pakete für Websites, Webanwendungen sowie Datei- und Mailserver.
+- Vollständige ausfüllbare Betriebshefte und gelöste Diagnosefälle bleiben digital zugänglich; die Bücher behalten die notwendigen Erklärungen und Arbeitsabläufe.
+- Band 2 enthält digital weiterhin die ausführlichen Kostenbeispiele und alle drei KI-Arbeitsfälle. Band 3 erhält zwölf wortgetreue Kopiervorlagen mit Kapitel- und Stufenzuordnung.
+- Die Zusammenstellung übernimmt die Sprach- und Technikredaktion bis zum 20. Oktober. Dateimanifeste binden die aktuellen Quellen; die ursprünglichen Quellenabrufdaten bleiben erhalten.
+- Neue gemeinsame Downloadübersicht für die drei Bände. Die ältere Webhosting-Ausgabe 2026.10.12-r4 bleibt getrennt erhalten.
+
 ## 2026.10.12-r4 · Vollständig abgeglichene Veröffentlichung
 
 - Fassungsangaben und Prüfsummen im Repository und in beiden Downloads vollständig abgeglichen.

@@ -1,20 +1,25 @@
 # Welche Fassung habe ich vor mir?
 
-**Materialfassung:** 2026.10.12-r4  
-**Datum:** 12. Oktober 2026  
-**Buch:** Webhosting – Das umfassende Praxisbuch, Band 1 und Band 2  
-**Zugehöriger Textstand:** 12. Oktober 2026 · Word-Master R8
+**Aktuelle Materialfassung:** 2026.10.20
 
-Die beiden ZIP-Pakete sind jeweils vollständig für ihren Band nutzbar. Gemeinsame Hinweise, Testberichte und Rückmeldevorlagen liegen deshalb in beiden Archiven. Sie müssen das zweite Paket nicht zusätzlich herunterladen.
+**Datum:** 20. Oktober 2026
 
-Die ursprünglichen Datumsangaben einzelner Arbeitsvorlagen und Quellen bleiben erhalten. Sie bezeichnen die Entstehung dieser Vorlage oder den damaligen Quellenabruf. Maßgeblich für die Zusammenstellung dieses Downloads ist die oben genannte Materialfassung.
+**Buchreihe:** Linux-Server – Das umfassende Praxisbuch, Band 1 bis 3
 
-## Einen bestimmten Stand wiederfinden
+**Zugehöriger Manuskriptstand:** 20. Oktober 2026
 
-Unter [Veröffentlichungen](https://github.com/lunaryx-IO/Selfhosting/releases) finden Sie datierte Materialstände. Für Rückmeldungen genügt die Materialfassung zusammen mit Band, Kapitel und Abschnitt. Spätere Änderungen auf der Startseite verändern einen früheren datierten Download nicht.
+Die [drei neuen Bandpakete](linux-server_2026-10-20/README.md) sind jeweils eigenständig nutzbar. Die Bücher enthalten weiterhin die Erklärungen, Voraussetzungen und Prüfungen der Arbeitsabläufe. Die digitalen Materialien ergänzen sie um ausfüllbare Vollvorlagen, zusätzliche gelöste Übungen und kopierbare Beispieldateien.
 
-Die [Dateiliste mit SHA-256-Prüfsummen](DATEIEN.sha256) beschreibt den Inhalt des Repository-Stands. Die [Prüfsummen der Downloads](pakete/SHA256SUMS.txt) gehören zu den ZIP-Dateien. Ein passender Hash bestätigt die Übereinstimmung der Datei; er ersetzt keine fachliche Prüfung einer Anleitung.
+Jedes Paket enthält eine eigene `VERSION.md` und ein Dateiverzeichnis mit Prüfsummen. Die ursprünglichen Abrufdaten der Quellen bleiben erhalten; sie werden durch das Herstellungsdatum nicht zu neuen Recherchebelegen. Die [Prüfsummen der drei Archive](linux-server_2026-10-20/pakete/SHA256SUMS.txt) helfen beim Vergleich eines Downloads. Der vollständige [Dateinachweis des Repository-Stands](DATEIEN.sha256) schließt auch die erhaltene ältere Ausgabe ein.
 
-## Was die Testberichte aussagen
+## Was geprüft wurde
 
-Der [Prüfüberblick](pruefungen/README.md) trennt tatsächliche Ergebnisse, behobene Fehler und noch nicht untersuchte Varianten. Die unabhängige Leser- und Fachprüfung ist auch in dieser Materialfassung noch offen. Die Veröffentlichung der Buchbeilage ist keine Behauptung, dass diese Menschenprüfungen bereits stattgefunden hätten.
+Die aktuelle Zusammenstellung übernimmt die abgeschlossene Sprach- und Technikredaktion. Ihre Dateien wurden gegen die führenden Manuskriptquellen abgeglichen; die zwölf Kopiervorlagen entsprechen den zugeordneten vollständigen Listings. Einzelpakete, Dateihashes und interne Verweise werden gesondert geprüft. Die jeweilige Band-`VERSION.md` beschreibt den begrenzten technischen Prüfstand und die weiterhin offenen äußeren sowie menschlichen Prüfungen.
+
+Eine Übereinstimmung der Dateien ersetzt nicht die im Buch beschriebene Prüfung Ihres eigenen Systems. Unabhängige menschliche Leserprüfung, physischer Probedruck und Buchveröffentlichung sind eigene Schritte.
+
+## Frühere Ausgabe
+
+Die Ordner `band-1`, `band-2`, `pakete`, `pruefungen` und `mitmachen` auf der obersten Ebene gehören weiterhin zur früheren **Webhosting**-Ausgabe. Ihre datierte [Veröffentlichung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4), die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) und deren [Fassungsbeschreibung](VERSION_WEBHOSTING_20261012-r4.md) bleiben erhalten. Die dortigen Prüfergebnisse gelten für ihren damaligen Stand.
+
+Für Rückmeldungen genügen Band, Kapitel, Abschnitt und Materialfassung. Spätere Korrekturen stehen in den [Änderungshinweisen](AENDERUNGEN.md).
