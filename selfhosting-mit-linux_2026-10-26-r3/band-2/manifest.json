@@ -1,0 +1,110 @@
+{
+  "edition": "Selfhosting mit Linux 2026-10-26",
+  "title": "Selfhosting mit Linux",
+  "strapline": "Praxisbuch in drei Bänden",
+  "subtitle": "Webanwendungen sicher betreiben und Abläufe automatisieren",
+  "product": "selfhosting-mit-linux",
+  "materialVersion": "2026.10.26-r3",
+  "band": 2,
+  "localOnly": false,
+  "distribution": "sales-companion",
+  "publicationStatus": "prepared",
+  "sources": [
+    {
+      "source": "band-2/anhang/AN001_kosten_und_ressourcen.md",
+      "sourceSha256": "7f64c0114524657f89c615773033f10829888effe9d01c3a6c8f9a20bfe4a304",
+      "destination": "band-2/AN001_kosten_und_ressourcen.md",
+      "sha256": "f984437dece19ee40d904969064ba5e55de6d43f7b33614402febed3f48cbac6",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-2/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "0f65f533b874cb127fe39508580bb30de54c1479ee47594218f5caabd50932fa",
+      "destination": "band-2/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "e5128259cd6cfe9994dd1fc76076b91d91083a28745c4ddd769d57eff9161185",
+      "codeBlocks": 4
+    },
+    {
+      "source": "band-2/beilagen/BL04_diagnose_und_alarmfaelle.md",
+      "sourceSha256": "bedb95cdce717e407c48039046acfb4ccd33abf6a202abbbe688da5f9a105770",
+      "destination": "band-2/BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "bf1888d7d39fd0e0f88bc3718dfdb5e82cf5fd642aadd4197043f23beaebd75b",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-2/beilagen/BL05_ki_arbeitsvorlagen.md",
+      "sourceSha256": "3e3d156817a6bc8e85f441bb272be6bd64047a019043342337b83e72d2aa8db1",
+      "destination": "band-2/BL05_ki_arbeitsvorlagen.md",
+      "sha256": "b0dacb4880ccd4d782058a48645c38df0b0f12a357d95c4ddd0cdf5d9d436290",
+      "codeBlocks": 3
+    },
+    {
+      "source": "band-2/beilagen/BL07_quellen_und_links.md",
+      "sourceSha256": "4ea06bf767ab6de256fcbe6872f633063d1942499122280f256b8de5f434fe26",
+      "destination": "band-2/BL07_quellen_und_links.md",
+      "sha256": "b13334a2a1d9a9d7113d586c88b4660e7c7d940b2c67085fb6abd5e3f60f343f",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-2/beilagen/BL08_terminreferenz_abnahme.md",
+      "sourceSha256": "d1372dbd23f16ba40434cc11025c253daa6b0f8c4726a5adcadde9dbe797cd00",
+      "destination": "band-2/BL08_terminreferenz_abnahme.md",
+      "sha256": "0881fc87c72e547be66653986c1ac66c71e065ac85ebc3f5e1a0fcd454052c78",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-2/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "0f65f533b874cb127fe39508580bb30de54c1479ee47594218f5caabd50932fa",
+      "destination": "band-2/arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "cf2e1c646c7842dc8546f6c12d14d833bf9f0be107f61337e7ff633bc85515d3",
+      "method": "Nur die ausdrücklich benannten Blankovorlagen wortgetreu; ausgefülltes Beispiel verbleibt in BL01. Band 2 zusätzlich vollständige Anwendungsergänzung"
+    }
+  ],
+  "files": [
+    {
+      "path": "AN001_kosten_und_ressourcen.md",
+      "sha256": "f984437dece19ee40d904969064ba5e55de6d43f7b33614402febed3f48cbac6",
+      "bytes": 25599
+    },
+    {
+      "path": "BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "e5128259cd6cfe9994dd1fc76076b91d91083a28745c4ddd769d57eff9161185",
+      "bytes": 33437
+    },
+    {
+      "path": "BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "bf1888d7d39fd0e0f88bc3718dfdb5e82cf5fd642aadd4197043f23beaebd75b",
+      "bytes": 30908
+    },
+    {
+      "path": "BL05_ki_arbeitsvorlagen.md",
+      "sha256": "b0dacb4880ccd4d782058a48645c38df0b0f12a357d95c4ddd0cdf5d9d436290",
+      "bytes": 33676
+    },
+    {
+      "path": "BL07_quellen_und_links.md",
+      "sha256": "b13334a2a1d9a9d7113d586c88b4660e7c7d940b2c67085fb6abd5e3f60f343f",
+      "bytes": 91071
+    },
+    {
+      "path": "BL08_terminreferenz_abnahme.md",
+      "sha256": "0881fc87c72e547be66653986c1ac66c71e065ac85ebc3f5e1a0fcd454052c78",
+      "bytes": 13483
+    },
+    {
+      "path": "arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "cf2e1c646c7842dc8546f6c12d14d833bf9f0be107f61337e7ff633bc85515d3",
+      "bytes": 7948
+    },
+    {
+      "path": "README.md",
+      "sha256": "be630d9f684dd82305cfdfb5a2a63956540ffbb76f5028743516155525fddf3c",
+      "bytes": 2123
+    },
+    {
+      "path": "VERSION.md",
+      "sha256": "99035a456c66b27d48e1a881b97f1fe4ff604ee702592e01a970f565cef99f68",
+      "bytes": 2162
+    }
+  ]
+}

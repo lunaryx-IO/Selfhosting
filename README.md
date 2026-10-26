@@ -1,14 +1,14 @@
-# Begleitmaterial zur Linux-Server-Reihe
+# Begleitmaterial zu Selfhosting mit Linux
 
-Willkommen bei **Linux-Server – Das umfassende Praxisbuch** von Franz Claus. Wählen Sie Ihren Band und laden Sie das passende Paket herunter. Ein GitHub-Konto oder Git-Kenntnisse brauchen Sie dafür nicht.
+Willkommen bei **Selfhosting mit Linux**, dem **Praxisbuch in drei Bänden** von Franz Claus. Wählen Sie Ihren Band und laden Sie das passende Paket herunter. Ein GitHub-Konto oder Git-Kenntnisse brauchen Sie dafür nicht.
 
-**Materialfassung 2026.10.26-r2, passend zur Verkaufsfassung vom 26. Oktober 2026.**
+**Materialfassung 2026.10.26-r3, passend zur Verkaufsfassung vom 26. Oktober 2026.**
 
 | Ihr Buch | Alles für diesen Band | Erst einmal ansehen |
 |---|---|---|
-| **Band 1** · Websites aufbauen und sicher betreiben | [ZIP herunterladen](linux-server_2026-10-26-r2/pakete/Linux_Server_Band_1_Begleitmaterial_20261026_r2.zip?raw=true) | [Dateien und Anleitung](linux-server_2026-10-26-r2/band-1/README.md) |
-| **Band 2** · Webanwendungen betreiben und Abläufe automatisieren | [ZIP herunterladen](linux-server_2026-10-26-r2/pakete/Linux_Server_Band_2_Begleitmaterial_20261026_r2.zip?raw=true) | [Dateien und Anleitung](linux-server_2026-10-26-r2/band-2/README.md) |
-| **Band 3** · Datei- und Mailserver sicher betreiben | [ZIP herunterladen](linux-server_2026-10-26-r2/pakete/Linux_Server_Band_3_Begleitmaterial_20261026_r2.zip?raw=true) | [Dateien und Anleitung](linux-server_2026-10-26-r2/band-3/README.md) |
+| **Band 1** · Webserver aufbauen und sicher betreiben | [ZIP herunterladen](selfhosting-mit-linux_2026-10-26-r3/pakete/Selfhosting_mit_Linux_Band_1_Begleitmaterial_20261026_r3.zip?raw=true) | [Dateien und Anleitung](selfhosting-mit-linux_2026-10-26-r3/band-1/README.md) |
+| **Band 2** · Webanwendungen sicher betreiben und Abläufe automatisieren | [ZIP herunterladen](selfhosting-mit-linux_2026-10-26-r3/pakete/Selfhosting_mit_Linux_Band_2_Begleitmaterial_20261026_r3.zip?raw=true) | [Dateien und Anleitung](selfhosting-mit-linux_2026-10-26-r3/band-2/README.md) |
+| **Band 3** · Datei- und Mailserver sicher betreiben | [ZIP herunterladen](selfhosting-mit-linux_2026-10-26-r3/pakete/Selfhosting_mit_Linux_Band_3_Begleitmaterial_20261026_r3.zip?raw=true) | [Dateien und Anleitung](selfhosting-mit-linux_2026-10-26-r3/band-3/README.md) |
 
 ## Nach dem Herunterladen
 
@@ -30,4 +30,4 @@ Für einen Hinweis genügen Band, Kapitel, Abschnitt und Materialfassung. Der [R
 
 Verwenden Sie ein älteres Buch, führt das [Archiv der Materialfassungen](Archiv/README.md) zum passenden früheren Download. Die damaligen Adressen bleiben erreichbar.
 
-[Fassung und Prüfstand](VERSION.md) · [Änderungen](AENDERUNGEN.md) · [Prüfsummen der aktuellen Downloads](linux-server_2026-10-26-r2/pakete/SHA256SUMS.txt).
+[Fassung und Prüfstand](VERSION.md) · [Änderungen](AENDERUNGEN.md) · [Prüfsummen der aktuellen Downloads](selfhosting-mit-linux_2026-10-26-r3/pakete/SHA256SUMS.txt).

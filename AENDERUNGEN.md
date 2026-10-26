@@ -1,5 +1,11 @@
 # Änderungen an den Begleitmaterialien
 
+## 26. Oktober 2026 · Neuer Reihentitel, Materialrevision r3
+
+- Die Reihe heißt jetzt **Selfhosting mit Linux · Praxisbuch in drei Bänden**. Band 1 heißt **Webserver aufbauen und sicher betreiben**, Band 2 **Webanwendungen sicher betreiben und Abläufe automatisieren**; der Untertitel von Band 3 bleibt erhalten.
+- Die neue Materialfassung **2026.10.26-r3** verwendet eigene Ordner und ZIP-Namen. Sämtliche technischen Blöcke und Kopiervorlagen sind gegenüber r2 unverändert und erneut vollständig mit ihren führenden Quellen abgeglichen.
+- Die veröffentlichten r2-Dateien, ältere Ausgaben und datierte Downloads bleiben erhalten. Die Materialbereitstellung ist keine Veröffentlichung der Bücher.
+
 ## 26. Oktober 2026 · Material zur Verkaufsfassung
 
 - Die zusätzliche Materialfassung 2026.10.26-r2 gehört zur Verkaufsfassung der drei Bände und übernimmt die eingearbeiteten Markdown-Korrekturen vom 22. und 25. Oktober.

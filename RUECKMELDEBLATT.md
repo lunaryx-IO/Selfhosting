@@ -1,6 +1,6 @@
-# Rückmeldung zur Linux-Server-Reihe
+# Rückmeldung zu Selfhosting mit Linux
 
-**Linux-Server, Band 1 bis 3 · Materialfassung 2026.10.26-r2**
+**Selfhosting mit Linux · Praxisbuch in drei Bänden · Materialfassung 2026.10.26-r3**
 
 Eine kurze, konkrete Beobachtung hilft mehr als ein vollständiger Fragebogen. Füllen Sie nur aus, was Sie beurteilen können.
 

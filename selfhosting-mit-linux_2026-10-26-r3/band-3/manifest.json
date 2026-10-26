@@ -1,0 +1,319 @@
+{
+  "edition": "Selfhosting mit Linux 2026-10-26",
+  "title": "Selfhosting mit Linux",
+  "strapline": "Praxisbuch in drei Bänden",
+  "subtitle": "Datei- und Mailserver sicher betreiben",
+  "product": "selfhosting-mit-linux",
+  "materialVersion": "2026.10.26-r3",
+  "band": 3,
+  "localOnly": false,
+  "distribution": "sales-companion",
+  "publicationStatus": "prepared",
+  "sources": [
+    {
+      "source": "band-3/anhang/AN001_kosten_und_ressourcen.md",
+      "sourceSha256": "729ba030110ee4cf79848f3763427c649f20a86024bb36c884570aad7fd149bd",
+      "destination": "band-3/AN001_kosten_und_ressourcen.md",
+      "sha256": "e2b413de86996b2b535c61dcb08c608cd0205a157326771e0cae95de373d3bd1",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-3/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "66a7cf0fba031e1f9ec4a339a527700c798704ece3aa0c6c049cc4b6afc527c1",
+      "destination": "band-3/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "4d1d1bb7f9f53f1682881698c5ceea5e55ef4e3a2c15747c1686fa2e1c85c83b",
+      "codeBlocks": 4
+    },
+    {
+      "source": "band-3/beilagen/BL04_diagnose_und_alarmfaelle.md",
+      "sourceSha256": "1e6b65dd2a70c2c5a4689b2bc8a536c256b377b2c8fc71f650130aab0f81cb39",
+      "destination": "band-3/BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "c22cf497b01c324b0fdcc191ceccc81ac6f63b36389076012763f2eba9ad491c",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-3/beilagen/BL07_quellen_und_links.md",
+      "sourceSha256": "9505024a53d107e0f52c3e5cb36824aafc6e289aa1326f533699cb73faf5691f",
+      "destination": "band-3/BL07_quellen_und_links.md",
+      "sha256": "f82ced44736ef1807aefd9f1e1a50a6a993eeb825ac263c91d210673db01c99a",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-3/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "66a7cf0fba031e1f9ec4a339a527700c798704ece3aa0c6c049cc4b6afc527c1",
+      "destination": "band-3/arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "5ec6df889084ee7c87f4cc0aaab78762f193b62f2c075c92cc6670074429c96e",
+      "method": "Nur die ausdrücklich benannten Blankovorlagen wortgetreu; ausgefülltes Beispiel verbleibt in BL01. Band 2 zusätzlich vollständige Anwendungsergänzung"
+    },
+    {
+      "filename": "02-filter-heim.nft",
+      "source": "band-3/kapitel/K054_dienste_standorte_und_zugaenge_trennen.md",
+      "section": "4. Eine gemeinsame, begrenzte Hostfilterbasis einrichten",
+      "anchor": "4-eine-gemeinsame-begrenzte-hostfilterbasis-einrichten",
+      "target": "/root/werkserver-aufbau/filter.neu.nft",
+      "stage": "Heimvariante; Schnittstelle, Netz und Verwaltungsadresse wie in Kapitel 2 anpassen. Für den VPS die dort erklärten Änderungen übernehmen.",
+      "language": "nft",
+      "bytes": 1471,
+      "sha256": "9e354c5396c43b2800a1a610f18f4b0aef700b92f4aa90de9729c6aa8255081d",
+      "sourceSha256": "4dc1a89fbd1483d6a3cc97f9471b4107a7c63395e338570702a1a495e558ba49",
+      "destination": "band-3/kopiervorlagen/02-filter-heim.nft",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "03-smb.conf",
+      "source": "band-3/kapitel/K055_die_erste_datei_gemeinsam_benutzen.md",
+      "section": "4. Die Freigabe beschreiben",
+      "anchor": "4-die-freigabe-beschreiben",
+      "target": "/etc/samba/smb.conf",
+      "stage": "Erste geschützte Freigabe. Sie setzt den begrenzten Netzweg aus Kapitel 2 voraus; die späteren Speicher- und Rechteergänzungen folgen im Buch.",
+      "language": "ini",
+      "bytes": 807,
+      "sha256": "b9a91b893196b7d84553badb6062fef27bfbcd9d89f429d336308fab2870a73e",
+      "sourceSha256": "c20a0ae77d7dab17b9c409a75ff48c928bd3d0db70af17d5c383d8e7d0920a2f",
+      "destination": "band-3/kopiervorlagen/03-smb.conf",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "09-werkdateien-sichern.sh",
+      "source": "band-3/kapitel/K061_dateien_und_bestand_zurueckholen.md",
+      "section": "5. Die Ruhephase und den Wiederanlauf zusammenhalten",
+      "anchor": "5-die-ruhephase-und-den-wiederanlauf-zusammenhalten",
+      "target": "/usr/local/sbin/werkdateien-sichern",
+      "stage": "Erst nach der Speicher-, Restic- und Geheimnisvorbereitung dieses Kapitels. Die zugehörige Diensteinrichtung bleibt Teil der Anleitung.",
+      "language": "bash",
+      "bytes": 4477,
+      "sha256": "b77ed70e93ac56069e59271de4e9dce23a587ebe122f5270da19044d44c2cccc",
+      "sourceSha256": "a92b6479afe96a05f26bffb533dcdf50ada3d98e9879cb2cf510039cc79c0462",
+      "destination": "band-3/kopiervorlagen/09-werkdateien-sichern.sh",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "13-dovecot-lokal.conf",
+      "source": "band-3/kapitel/K065_die_erste_nachricht_zustellen.md",
+      "section": "3. Dovecot den lokalen Zustellweg erklären",
+      "anchor": "3-dovecot-den-lokalen-zustellweg-erklären",
+      "target": "/etc/dovecot/dovecot.conf",
+      "stage": "Nur die erste lokale Zustellstufe. Domain, Benutzerzuordnung und Datenträger vorbereiten; spätere IMAP-/TLS-Ergänzungen nicht damit überschreiben.",
+      "language": "conf",
+      "bytes": 733,
+      "sha256": "c2d1e9733d46e0e49c3276a8efc92e9377bf38f70508b6f5c5903bb8061ebfd6",
+      "sourceSha256": "6590cae2f44750e2b30dfb7e21b0270e70b7901816f9fe0cc4a194f103a4009e",
+      "destination": "band-3/kopiervorlagen/13-dovecot-lokal.conf",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "13-postfix-lokal.cf",
+      "source": "band-3/kapitel/K065_die_erste_nachricht_zustellen.md",
+      "section": "4. Postfix nur bekannte Empfänger annehmen lassen",
+      "anchor": "4-postfix-nur-bekannte-empfänger-annehmen-lassen",
+      "target": "/etc/postfix/main.cf",
+      "stage": "Nur die erste lokale Zustellstufe. Eigene Namen und Empfängertabellen einsetzen; kein vollständiger öffentlicher Mailserver.",
+      "language": "conf",
+      "bytes": 971,
+      "sha256": "2232258732c1a985cc06eec1e38421b637f6edc4e4d563e4bf0189f6d3528b02",
+      "sourceSha256": "6590cae2f44750e2b30dfb7e21b0270e70b7901816f9fe0cc4a194f103a4009e",
+      "destination": "band-3/kopiervorlagen/13-postfix-lokal.cf",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "14-werkpost-zertifikat.sh",
+      "source": "band-3/kapitel/K066_mailprogramme_verschluesselt_anbinden.md",
+      "section": "3. Ausgabe und Erneuerung in einen begrenzten Ablauf fassen",
+      "anchor": "3-ausgabe-und-erneuerung-in-einen-begrenzten-ablauf-fassen",
+      "target": "/usr/local/sbin/werkpost-zertifikat",
+      "stage": "Echten Mailhost und die geschützte TLS-Umgebung aus Kapitel 14 verwenden. Ausgabe, Erneuerung und Probe sind getrennte Aufrufe.",
+      "language": "bash",
+      "bytes": 1646,
+      "sha256": "679c428c96684aab74d4774d7873f9ab5370ea33a8df0b713f7a9b5d19d87e6c",
+      "sourceSha256": "1de2e4bec27e136ed1b24e86b5e7b043f95114fff2ad02a4393365ba35ec381b",
+      "destination": "band-3/kopiervorlagen/14-werkpost-zertifikat.sh",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "14-50-werkpost.sh",
+      "source": "band-3/kapitel/K066_mailprogramme_verschluesselt_anbinden.md",
+      "section": "4. Das Zertifikat kontrolliert an die Dienste übergeben",
+      "anchor": "4-das-zertifikat-kontrolliert-an-die-dienste-übergeben",
+      "target": "/etc/letsencrypt/renewal-hooks/deploy/50-werkpost",
+      "stage": "Übernahme des Zertifikats erst nach Erstausgabe und Zielvorbereitung. Mailhost muss zu Zertifikatsroutine und Diensten passen.",
+      "language": "bash",
+      "bytes": 1537,
+      "sha256": "aabf569eaba28762f529ea4ea7432b00a292b495a77b09b00d5371cce8a7a1c5",
+      "sourceSha256": "1de2e4bec27e136ed1b24e86b5e7b043f95114fff2ad02a4393365ba35ec381b",
+      "destination": "band-3/kopiervorlagen/14-50-werkpost.sh",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "16-werkpost-sicherung-abschluss.sh",
+      "source": "band-3/kapitel/K068_mailbetrieb_wiederherstellen.md",
+      "section": "5. Den Wiederstart auch nach einem Fehler regeln",
+      "anchor": "5-den-wiederstart-auch-nach-einem-fehler-regeln",
+      "target": "/usr/local/sbin/werkpost-sicherung-abschluss",
+      "stage": "Abschluss der Mailsicherung aus Kapitel 16. Gemeinsam mit der Hauptroutine und der dortigen Unit einrichten. Eine alte Unterbrechung zuerst zuordnen. Bei einem Wiederstartfehler bleibt die offene Laufmarkierung erhalten; ein reiner Meldefehler hält einen bereits abgeschlossenen Wiederstart nicht offen.",
+      "language": "bash",
+      "bytes": 1824,
+      "sha256": "3070427df5eb8972b797ca3f41786371b9f9361a70e259d4949e297087a01062",
+      "sourceSha256": "5585077f68261163ba89aa4734e5010dd84aee766fd8edcef856eb2a50e6a033",
+      "destination": "band-3/kopiervorlagen/16-werkpost-sicherung-abschluss.sh",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "16-werkpost-sichern.sh",
+      "source": "band-3/kapitel/K068_mailbetrieb_wiederherstellen.md",
+      "section": "6. Den vollständigen Sicherungslauf schreiben",
+      "anchor": "6-den-vollständigen-sicherungslauf-schreiben",
+      "target": "/usr/local/sbin/werkpost-sichern",
+      "stage": "Basisstufe aus Kapitel 16 mit MAIL_FILTER=no. Speicher, Ziele, Geheimnisse und Abschlussroutine vorher einrichten. Kapitel 17 ergänzt vor der Pause die Rspamd-Prüfung, die Filterquellen und die Dienstfolge für Redis/Rspamd; Kapitel 18 ergänzt die Beobachtungsdateien. Diese Basisvorlage ersetzt keine bereits so erweiterte Sicherung.",
+      "language": "bash",
+      "bytes": 4400,
+      "sha256": "58ab78a67920577fd4e4f80f267498d88a20f4b356d142e0e90b1f6ceba191e2",
+      "sourceSha256": "5585077f68261163ba89aa4734e5010dd84aee766fd8edcef856eb2a50e6a033",
+      "destination": "band-3/kopiervorlagen/16-werkpost-sichern.sh",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "16-werkpost-restore-rechte.py",
+      "source": "band-3/kapitel/K068_mailbetrieb_wiederherstellen.md",
+      "section": "Paketidentitäten auf dem Ersatz zuordnen",
+      "anchor": "paketidentitäten-auf-dem-ersatz-zuordnen",
+      "target": "/usr/local/sbin/werkpost-restore-rechte",
+      "stage": "Nur im beschriebenen Wiederaufbau auf dem leeren Ersatz. Paketidentitäten und Datenträger vorher vergleichen.",
+      "language": "python",
+      "bytes": 2774,
+      "sha256": "b4e88f09bbb4b246f93fd6dc66d51ffb6098c22c1f80dcb300a1fcd33e77a48b",
+      "sourceSha256": "5585077f68261163ba89aa4734e5010dd84aee766fd8edcef856eb2a50e6a033",
+      "destination": "band-3/kopiervorlagen/16-werkpost-restore-rechte.py",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "17-rspamd.local.lua",
+      "source": "band-3/kapitel/K069_mailidentitaet_und_unerwuenschte_nachrichten.md",
+      "section": "4. Den sichtbaren Absender mit der Sendeerlaubnis verbinden",
+      "anchor": "4-den-sichtbaren-absender-mit-der-sendeerlaubnis-verbinden",
+      "target": "/etc/rspamd/rspamd.local.lua",
+      "stage": "Eigene Absenderzuordnung zusammen mit den im Kapitel gezeigten Rspamd-Dateien und Prüfungen einrichten.",
+      "language": "lua",
+      "bytes": 990,
+      "sha256": "73801809f5f7d27f0f250961c6e907121fd8d831fccd21f9fe3e3c3f80fbb101",
+      "sourceSha256": "4dce3bef06e0438fea16c4ea2395debff42ccc0e519a40094e6203f972554a64",
+      "destination": "band-3/kopiervorlagen/17-rspamd.local.lua",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    },
+    {
+      "filename": "18-werkpost-beobachten.sh",
+      "source": "band-3/kapitel/K070_nachrichten_von_aussen_empfangen.md",
+      "section": "6. Den öffentlichen Stand regelmäßig und unabhängig beobachten",
+      "anchor": "6-den-öffentlichen-stand-regelmäßig-und-unabhängig-beobachten",
+      "target": "/usr/local/sbin/werkpost-beobachten",
+      "stage": "Beobachtung des öffentlichen Stands. Geschützte Meldedaten, Prüfziele und Zeitgeber wie in Kapitel 18 vorbereiten.",
+      "language": "bash",
+      "bytes": 1594,
+      "sha256": "5060545619ef9edb474d291561a59612ea487c7dbe6eabaf35d89a829b69134c",
+      "sourceSha256": "788a4ff2e3ab675f871c2a372c08590222354bd74bda1cd912b748996f7b0712",
+      "destination": "band-3/kopiervorlagen/18-werkpost-beobachten.sh",
+      "method": "Wortgetreuer vollständiger Markdown-Block"
+    }
+  ],
+  "files": [
+    {
+      "path": "AN001_kosten_und_ressourcen.md",
+      "sha256": "e2b413de86996b2b535c61dcb08c608cd0205a157326771e0cae95de373d3bd1",
+      "bytes": 16407
+    },
+    {
+      "path": "BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "4d1d1bb7f9f53f1682881698c5ceea5e55ef4e3a2c15747c1686fa2e1c85c83b",
+      "bytes": 15838
+    },
+    {
+      "path": "BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "c22cf497b01c324b0fdcc191ceccc81ac6f63b36389076012763f2eba9ad491c",
+      "bytes": 15361
+    },
+    {
+      "path": "BL07_quellen_und_links.md",
+      "sha256": "f82ced44736ef1807aefd9f1e1a50a6a993eeb825ac263c91d210673db01c99a",
+      "bytes": 37114
+    },
+    {
+      "path": "arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "5ec6df889084ee7c87f4cc0aaab78762f193b62f2c075c92cc6670074429c96e",
+      "bytes": 6025
+    },
+    {
+      "path": "kopiervorlagen/02-filter-heim.nft",
+      "sha256": "9e354c5396c43b2800a1a610f18f4b0aef700b92f4aa90de9729c6aa8255081d",
+      "bytes": 1471
+    },
+    {
+      "path": "kopiervorlagen/03-smb.conf",
+      "sha256": "b9a91b893196b7d84553badb6062fef27bfbcd9d89f429d336308fab2870a73e",
+      "bytes": 807
+    },
+    {
+      "path": "kopiervorlagen/09-werkdateien-sichern.sh",
+      "sha256": "b77ed70e93ac56069e59271de4e9dce23a587ebe122f5270da19044d44c2cccc",
+      "bytes": 4477
+    },
+    {
+      "path": "kopiervorlagen/13-dovecot-lokal.conf",
+      "sha256": "c2d1e9733d46e0e49c3276a8efc92e9377bf38f70508b6f5c5903bb8061ebfd6",
+      "bytes": 733
+    },
+    {
+      "path": "kopiervorlagen/13-postfix-lokal.cf",
+      "sha256": "2232258732c1a985cc06eec1e38421b637f6edc4e4d563e4bf0189f6d3528b02",
+      "bytes": 971
+    },
+    {
+      "path": "kopiervorlagen/14-werkpost-zertifikat.sh",
+      "sha256": "679c428c96684aab74d4774d7873f9ab5370ea33a8df0b713f7a9b5d19d87e6c",
+      "bytes": 1646
+    },
+    {
+      "path": "kopiervorlagen/14-50-werkpost.sh",
+      "sha256": "aabf569eaba28762f529ea4ea7432b00a292b495a77b09b00d5371cce8a7a1c5",
+      "bytes": 1537
+    },
+    {
+      "path": "kopiervorlagen/16-werkpost-sicherung-abschluss.sh",
+      "sha256": "3070427df5eb8972b797ca3f41786371b9f9361a70e259d4949e297087a01062",
+      "bytes": 1824
+    },
+    {
+      "path": "kopiervorlagen/16-werkpost-sichern.sh",
+      "sha256": "58ab78a67920577fd4e4f80f267498d88a20f4b356d142e0e90b1f6ceba191e2",
+      "bytes": 4400
+    },
+    {
+      "path": "kopiervorlagen/16-werkpost-restore-rechte.py",
+      "sha256": "b4e88f09bbb4b246f93fd6dc66d51ffb6098c22c1f80dcb300a1fcd33e77a48b",
+      "bytes": 2774
+    },
+    {
+      "path": "kopiervorlagen/17-rspamd.local.lua",
+      "sha256": "73801809f5f7d27f0f250961c6e907121fd8d831fccd21f9fe3e3c3f80fbb101",
+      "bytes": 990
+    },
+    {
+      "path": "kopiervorlagen/18-werkpost-beobachten.sh",
+      "sha256": "5060545619ef9edb474d291561a59612ea487c7dbe6eabaf35d89a829b69134c",
+      "bytes": 1594
+    },
+    {
+      "path": "kopiervorlagen/README.md",
+      "sha256": "245a69213cf552fd0124d0e795fcc5a257bdd05847a426c6b7a89f8bb5eed14d",
+      "bytes": 4952
+    },
+    {
+      "path": "README.md",
+      "sha256": "5a74ffc561a83f047a144c1859b585e94ee94e4e34de373e0bef69099a0e0712",
+      "bytes": 1841
+    },
+    {
+      "path": "VERSION.md",
+      "sha256": "65ca261f6715aef1574522064180900f9d328ad6b0f84442e52831da8186d610",
+      "bytes": 2367
+    }
+  ]
+}

@@ -4,11 +4,11 @@ Die Unterlagen lassen sich direkt im Browser lesen. Wenn Sie eigene Notizen erg�
 
 ## 1. Den eigenen Band wählen
 
-Die Fassung **2026.10.26-r2** gehört zur Verkaufsfassung vom 26. Oktober 2026 von **Linux-Server – Das umfassende Praxisbuch**:
+Die Fassung **2026.10.26-r3** gehört zur Verkaufsfassung vom 26. Oktober 2026 von **Selfhosting mit Linux · Praxisbuch in drei Bänden**:
 
-- [Band 1 herunterladen](linux-server_2026-10-26-r2/pakete/Linux_Server_Band_1_Begleitmaterial_20261026_r2.zip?raw=true): Werkstattwebsite, Betriebsheft, DNS-Übung, geschützte Proxyprobe und Quellen.
-- [Band 2 herunterladen](linux-server_2026-10-26-r2/pakete/Linux_Server_Band_2_Begleitmaterial_20261026_r2.zip?raw=true): vollständiges Betriebsheft mit Kostenbeispielen, Diagnosefälle, Terminprüfung, KI-Arbeitsfälle mit erklärten Lösungen und Quellen.
-- [Band 3 herunterladen](linux-server_2026-10-26-r2/pakete/Linux_Server_Band_3_Begleitmaterial_20261026_r2.zip?raw=true): Betriebsheft für Dateien und Postfächer, vier Diagnosefälle, zwölf Kopiervorlagen, Kostenplanung und Quellen.
+- [Band 1 herunterladen](selfhosting-mit-linux_2026-10-26-r3/pakete/Selfhosting_mit_Linux_Band_1_Begleitmaterial_20261026_r3.zip?raw=true): Werkstattwebsite, Betriebsheft, DNS-Übung, geschützte Proxyprobe und Quellen.
+- [Band 2 herunterladen](selfhosting-mit-linux_2026-10-26-r3/pakete/Selfhosting_mit_Linux_Band_2_Begleitmaterial_20261026_r3.zip?raw=true): vollständiges Betriebsheft mit Kostenbeispielen, Diagnosefälle, Terminprüfung, KI-Arbeitsfälle mit erklärten Lösungen und Quellen.
+- [Band 3 herunterladen](selfhosting-mit-linux_2026-10-26-r3/pakete/Selfhosting_mit_Linux_Band_3_Begleitmaterial_20261026_r3.zip?raw=true): Betriebsheft für Dateien und Postfächer, vier Diagnosefälle, zwölf Kopiervorlagen, Kostenplanung und Quellen.
 
 Die Links laden das jeweilige ZIP direkt herunter. Ein GitHub-Konto benötigen Sie dafür nicht. Entpacken Sie das ZIP in einen neuen Ordner; Ihre bereits ausgefüllten Arbeitsdateien bleiben so erhalten.
 
@@ -26,6 +26,6 @@ Ihre persönlichen Zugänge, Schlüssel und echten Kundendaten bleiben in ihrer 
 
 ## Wenn Sie eine frühere Ausgabe verwenden
 
-Das [Archiv der früheren Materialfassungen](Archiv/README.md) hilft bei der Zuordnung. Die Materialien [2026.10.20-r2](linux-server_2026-10-20-r2/README.md) passen zu den damaligen Testleserfassungen. Die [Materialfassung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4) und die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) bleiben erreichbar. Verwenden Sie deren Pakete für den entsprechenden älteren Buchstand.
+Das [Archiv der früheren Materialfassungen](Archiv/README.md) hilft bei der Zuordnung. Die [Materialfassung 2026.10.26-r2](linux-server_2026-10-26-r2/README.md) zum früheren Titel Linux-Server bleibt unverändert erhalten. Die Materialien [2026.10.20-r2](linux-server_2026-10-20-r2/README.md) passen zu den damaligen Testleserfassungen. Die [Materialfassung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4) und die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) bleiben erreichbar. Verwenden Sie deren Pakete für den entsprechenden älteren Buchstand.
 
 [Zur Startseite](README.md)
