@@ -1,5 +1,11 @@
 # Änderungen an den Begleitmaterialien
 
+## 26. Oktober 2026 · Material zur Verkaufsfassung
+
+- Die zusätzliche Materialfassung 2026.10.26-r2 gehört zur Verkaufsfassung der drei Bände und übernimmt die eingearbeiteten Markdown-Korrekturen vom 22. und 25. Oktober.
+- Alle technischen Blöcke und Kopiervorlagen sind vollständig gegen die aktuellen Quellen und die erhaltene Materialfassung 2026.10.26-r1 abgeglichen. Die Zusammenstellung startet keine Dienste und ist kein neuer Laufzeitnachweis.
+- Jedes Bandpaket enthält seine eigene Fassungszuordnung und Prüfsummen. Frühere Ausgaben und ihre datierten Downloads bleiben erhalten.
+
 ## 21. Oktober 2026 · Einfacher zum passenden Material
 
 - Die Startseite führt direkt zu den drei Downloads und zu den jeweiligen Banddateien.

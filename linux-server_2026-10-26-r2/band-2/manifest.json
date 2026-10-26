@@ -1,0 +1,106 @@
+{
+  "edition": "Linux-Server 2026-10-26",
+  "materialVersion": "2026.10.26-r2",
+  "band": 2,
+  "localOnly": false,
+  "distribution": "sales-companion",
+  "publicationStatus": "prepared",
+  "sources": [
+    {
+      "source": "band-2/anhang/AN001_kosten_und_ressourcen.md",
+      "sourceSha256": "19901334b36a7b29949cfa5617e94e092643ec310dbb3804dae20111cc0d34b6",
+      "destination": "band-2/AN001_kosten_und_ressourcen.md",
+      "sha256": "f984437dece19ee40d904969064ba5e55de6d43f7b33614402febed3f48cbac6",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-2/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "da7e2344e8fcc776e9ecfe421025594786cc8a04666214d7a292ad596de83b43",
+      "destination": "band-2/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "5a36ef909f0ac054dc0d298cb500ebccb102af8161d17a04b90b439d863598ee",
+      "codeBlocks": 4
+    },
+    {
+      "source": "band-2/beilagen/BL04_diagnose_und_alarmfaelle.md",
+      "sourceSha256": "ff46b95eab61bb10f98e82b08e310f1b37d7aa3d7b22b8b9b2ac7ed9fcf815dd",
+      "destination": "band-2/BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "e35a64ce9e0a6175114c3a599d1cf40011f7f9cb8b37c35bc92ed786a26fb6a2",
+      "codeBlocks": 1
+    },
+    {
+      "source": "band-2/beilagen/BL05_ki_arbeitsvorlagen.md",
+      "sourceSha256": "c00c083364e36036dcdbde1e88fb5bddd6e412b2b56e266e46af096d5929b77b",
+      "destination": "band-2/BL05_ki_arbeitsvorlagen.md",
+      "sha256": "6c1d2acdfa5e1da224abb22b578de5f94a8f2a64113a1222413225e3b636c465",
+      "codeBlocks": 3
+    },
+    {
+      "source": "band-2/beilagen/BL07_quellen_und_links.md",
+      "sourceSha256": "795f56c3e07396c3599dcb420281993631f25b7caaa1a4e081d6ed1421e4a348",
+      "destination": "band-2/BL07_quellen_und_links.md",
+      "sha256": "0deaac6b77096787b01e18e947b2c61e4490c6b9f8613c4c00d75d5f0bd9fb04",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-2/beilagen/BL08_terminreferenz_abnahme.md",
+      "sourceSha256": "d1372dbd23f16ba40434cc11025c253daa6b0f8c4726a5adcadde9dbe797cd00",
+      "destination": "band-2/BL08_terminreferenz_abnahme.md",
+      "sha256": "0881fc87c72e547be66653986c1ac66c71e065ac85ebc3f5e1a0fcd454052c78",
+      "codeBlocks": 0
+    },
+    {
+      "source": "band-2/beilagen/BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sourceSha256": "da7e2344e8fcc776e9ecfe421025594786cc8a04666214d7a292ad596de83b43",
+      "destination": "band-2/arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "f184d733811e1f10638316dd89757ac8f76bcb78e2ae82116b1727528db20a3f",
+      "method": "Nur die ausdrücklich benannten Blankovorlagen wortgetreu; ausgefülltes Beispiel verbleibt in BL01. Band 2 zusätzlich vollständige Anwendungsergänzung"
+    }
+  ],
+  "files": [
+    {
+      "path": "AN001_kosten_und_ressourcen.md",
+      "sha256": "f984437dece19ee40d904969064ba5e55de6d43f7b33614402febed3f48cbac6",
+      "bytes": 25599
+    },
+    {
+      "path": "BL01_betriebsheft_anforderungen_und_kosten.md",
+      "sha256": "5a36ef909f0ac054dc0d298cb500ebccb102af8161d17a04b90b439d863598ee",
+      "bytes": 33458
+    },
+    {
+      "path": "BL04_diagnose_und_alarmfaelle.md",
+      "sha256": "e35a64ce9e0a6175114c3a599d1cf40011f7f9cb8b37c35bc92ed786a26fb6a2",
+      "bytes": 30929
+    },
+    {
+      "path": "BL05_ki_arbeitsvorlagen.md",
+      "sha256": "6c1d2acdfa5e1da224abb22b578de5f94a8f2a64113a1222413225e3b636c465",
+      "bytes": 33697
+    },
+    {
+      "path": "BL07_quellen_und_links.md",
+      "sha256": "0deaac6b77096787b01e18e947b2c61e4490c6b9f8613c4c00d75d5f0bd9fb04",
+      "bytes": 91092
+    },
+    {
+      "path": "BL08_terminreferenz_abnahme.md",
+      "sha256": "0881fc87c72e547be66653986c1ac66c71e065ac85ebc3f5e1a0fcd454052c78",
+      "bytes": 13483
+    },
+    {
+      "path": "arbeitsblaetter/BETRIEBSHEFT_LEER.md",
+      "sha256": "f184d733811e1f10638316dd89757ac8f76bcb78e2ae82116b1727528db20a3f",
+      "bytes": 7969
+    },
+    {
+      "path": "README.md",
+      "sha256": "8fd2dd3b21c3d622df006cff0ba5cca990996fdc459a2612bc4dab84a913133d",
+      "bytes": 2109
+    },
+    {
+      "path": "VERSION.md",
+      "sha256": "51f197ef47cc127f1d8b5b0e6b248a48e23c9960bce96cc362088d1cd4fee675",
+      "bytes": 1820
+    }
+  ]
+}

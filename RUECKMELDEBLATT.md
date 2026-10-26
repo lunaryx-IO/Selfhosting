@@ -1,6 +1,6 @@
 # Rückmeldung zur Linux-Server-Reihe
 
-**Testleserfassung vom 20. Oktober 2026 · Materialfassung 2026.10.20-r2**
+**Linux-Server, Band 1 bis 3 · Materialfassung 2026.10.26-r2**
 
 Eine kurze, konkrete Beobachtung hilft mehr als ein vollständiger Fragebogen. Füllen Sie nur aus, was Sie beurteilen können.
 

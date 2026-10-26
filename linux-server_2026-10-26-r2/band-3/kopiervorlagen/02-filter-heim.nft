@@ -1,0 +1,44 @@
+#!/usr/sbin/nft -f
+define phys_if = "ens18"
+destroy table inet werkserver
+table inet werkserver {
+    set admin_lokal4 { type ipv4_addr; elements = { 10.77.10.10 }; }
+    set admin_vpn4 { type ipv4_addr; }
+    set datei_lokal4 {
+        type ipv4_addr;
+        elements = { 192.168.178.50, 192.168.178.51 };
+    }
+    set datei_vpn4 { type ipv4_addr; }
+
+    chain verwaltung {
+        iifname $phys_if ip saddr @admin_lokal4 counter accept
+        iifname "tailscale0" ip saddr @admin_vpn4 counter accept
+        counter drop
+    }
+    chain dateizugang {
+        iifname $phys_if ip saddr @datei_lokal4 counter accept
+        iifname "tailscale0" ip saddr @datei_vpn4 counter accept
+        counter drop
+    }
+    chain input {
+        type filter hook input priority filter; policy drop;
+        iifname "lo" accept
+        iifname $phys_if udp sport 67 udp dport 68 accept
+        iifname $phys_if udp sport 547 udp dport 546 accept
+        ct state invalid drop
+        tcp dport 22 jump verwaltung
+        tcp dport 445 jump dateizugang
+        ct state established,related accept
+        meta l4proto icmp accept
+        meta l4proto ipv6-icmp accept
+        counter drop
+    }
+    chain forward {
+        type filter hook forward priority filter; policy drop;
+    }
+    chain output {
+        type filter hook output priority filter; policy accept;
+        oifname "tailscale0" ct state established,related accept
+        oifname "tailscale0" counter drop
+    }
+}

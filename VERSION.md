@@ -1,29 +1,23 @@
 # Welche Fassung habe ich vor mir?
 
-**Aktuelle Materialfassung:** 2026.10.20-r2
-
-**Datum:** 20. Oktober 2026
+**Materialfassung:** 2026.10.26-r2 · 26. Oktober 2026
 
 **Buchreihe:** Linux-Server – Das umfassende Praxisbuch, Band 1 bis 3
 
-**Zugehöriger Manuskriptstand:** Testleserfassung vom 20. Oktober 2026 nach der abschließenden Sprach- und Verweisredaktion
+**Zugehöriger Buchstand:** Verkaufsfassung vom 26. Oktober 2026
 
-Die [drei neuen Bandpakete](linux-server_2026-10-20-r2/README.md) sind jeweils eigenständig nutzbar. Die Bücher enthalten weiterhin die Erklärungen, Voraussetzungen und Prüfungen der Arbeitsabläufe. Die digitalen Materialien ergänzen sie um ausfüllbare Vollvorlagen, zusätzliche gelöste Übungen und kopierbare Beispieldateien.
+Die [drei Bandpakete](linux-server_2026-10-26-r2/README.md) sind jeweils eigenständig nutzbar. Sie ergänzen die Bücher um ausfüllbare Arbeitsvorlagen, gelöste Übungen, Beispieldateien und zwölf Kopiervorlagen. Die Erklärungen, Voraussetzungen, nötigen Arbeitsabläufe und Rückwege bleiben im jeweiligen Buch.
 
-Jedes Paket enthält eine eigene `VERSION.md` und ein Dateiverzeichnis mit Prüfsummen. Die ursprünglichen Abrufdaten der Quellen bleiben erhalten; sie werden durch das Herstellungsdatum nicht zu neuen Recherchebelegen. Die [Prüfsummen der drei Archive](linux-server_2026-10-20-r2/pakete/SHA256SUMS.txt) helfen beim Vergleich eines Downloads. Der vollständige [Dateinachweis des Repository-Stands](DATEIEN.sha256) schließt auch die erhaltene ältere Ausgabe ein.
+Jedes Paket enthält eine eigene VERSION.md und ein Dateiverzeichnis mit Prüfsummen. Die ursprünglichen Abrufdaten der Quellen bleiben erhalten. Die [Prüfsummen der drei Archive](linux-server_2026-10-26-r2/pakete/SHA256SUMS.txt) und das [vollständige Dateiverzeichnis](DATEIEN.sha256) helfen Ihnen beim Vergleichen.
 
-## Was geprüft wurde
+## Zuordnung und Prüfstand
 
-Die aktuelle Zusammenstellung übernimmt die abgeschlossene Sprach- und Technikredaktion. Ihre Dateien wurden gegen die führenden Manuskriptquellen abgeglichen; die zwölf Kopiervorlagen entsprechen den zugeordneten vollständigen Listings. Einzelpakete, Dateihashes und interne Verweise werden gesondert geprüft. Die jeweilige Band-`VERSION.md` beschreibt den begrenzten technischen Prüfstand und die weiterhin offenen äußeren sowie menschlichen Prüfungen.
+Diese Ausgabe übernimmt die eingearbeiteten Markdown-Korrekturen vom 22. und 25. Oktober. Die Vorlagen sind mit den zugehörigen Quellen vollständig abgeglichen. Die jeweilige Band-VERSION.md nennt den technischen Prüfstand und dessen Grenzen. Die Zusammenstellung der Materialien ist kein neuer Serverlauf und ersetzt nicht die im Buch beschriebene Prüfung Ihres eigenen Aufbaus.
 
-Eine Übereinstimmung der Dateien ersetzt nicht die im Buch beschriebene Prüfung Ihres eigenen Systems. Unabhängige menschliche Leserprüfung, physischer Probedruck und Buchveröffentlichung sind eigene Schritte.
+Unabhängige menschliche Leserprüfung, physischer Probedruck und Buchveröffentlichung bleiben eigene Schritte. Diese Materialzuordnung behauptet keine bereits erfolgte Buchveröffentlichung.
 
-Die erste Materialfassung der Dreierreihe vom selben Tag bleibt unter [2026.10.20](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.20) erhalten. Für die neuen Testleser-Master verwenden Sie r2.
+## Frühere Ausgaben
 
-## Frühere Ausgabe
+Die [Materialfassung 2026.10.20-r2](linux-server_2026-10-20-r2/README.md) bleibt den drei Testleserfassungen vom 20. Oktober zugeordnet. Das [Archiv](Archiv/README.md) führt auch zur ersten Zusammenstellung vom selben Tag und zur früheren zweibändigen Webhosting-Ausgabe. Alte Ordner, datierte ZIP-Dateien und vorhandene Leserlinks bleiben erhalten.
 
-Das [Archiv der Materialfassungen](Archiv/README.md) ordnet die älteren Ausgaben zu. Die Ordner `band-1`, `band-2`, `pakete`, `pruefungen` und `mitmachen` auf der obersten Ebene gehören weiterhin zur früheren **Webhosting**-Ausgabe. Ihre datierte [Veröffentlichung 2026.10.12-r4](https://github.com/lunaryx-IO/Selfhosting/releases/tag/material-2026.10.12-r4), die [frühere Übersicht](ARCHIV_WEBHOSTING_20261012.md) und deren [Fassungsbeschreibung](VERSION_WEBHOSTING_20261012-r4.md) bleiben erhalten. Die dortigen Prüfergebnisse gelten für ihren damaligen Stand.
-
-Für Rückmeldungen genügen Band, Kapitel, Abschnitt und Materialfassung. Spätere Korrekturen stehen in den [Änderungshinweisen](AENDERUNGEN.md).
-
-**Navigation überarbeitet am 21. Oktober 2026.** Die Materialdateien und die datierten ZIP-Pakete bleiben auf dem unveränderten Stand 2026.10.20-r2.
+Für einen Hinweis genügen Band, Kapitel, Abschnitt und Materialfassung. Spätere Korrekturen stehen in den [Änderungshinweisen](AENDERUNGEN.md).
